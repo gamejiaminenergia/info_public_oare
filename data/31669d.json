@@ -1,0 +1,51 @@
+{
+  "datasetId": "31669d",
+  "datasetName": "Cantidades en contratos de energía del Mercado Mayorista por vendedor",
+  "queryDate": "2026-05-20",
+  "granularity": "Diaria",
+  "category": "Cantidades en contratos de energía del Mercado Mayorista por vendedor",
+  "lastUpdate": "2026-05-21 04:34:52",
+  "columns": [
+    {
+      "nameColumn": "CodigoVariable",
+      "dataType": "texto",
+      "description": "Código de la variable"
+    },
+    {
+      "nameColumn": "Valor",
+      "dataType": "decimal",
+      "description": "Valor de la variable (escala de 4 cifras)"
+    },
+    {
+      "nameColumn": "Mecanismo",
+      "dataType": "texto"
+    },
+    {
+      "nameColumn": "NormatividadRelacionada",
+      "dataType": "texto",
+      "description": "Normatividad relacionada"
+    },
+    {
+      "nameColumn": "Version",
+      "dataType": "texto",
+      "description": "Versión de la liquidación"
+    },
+    {
+      "nameColumn": "TipoMercado",
+      "dataType": "texto",
+      "description": "Tipo de Mercado Regulado o No Regulado"
+    },
+    {
+      "nameColumn": "Fecha",
+      "dataType": "fecha",
+      "description": "Fecha de representación de la información"
+    },
+    {
+      "nameColumn": "CodigoAgenteVendedor",
+      "dataType": "texto",
+      "description": "Codigo SIC del agente Vendedor"
+    }
+  ],
+  "columnCount": 8,
+  "recordCountForQueryDate": 0
+}

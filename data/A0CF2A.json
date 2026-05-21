@@ -1,0 +1,32 @@
+{
+  "datasetId": "A0CF2A",
+  "datasetName": "Listado de Embalses que sirven al Sistema Interconectado Nacional",
+  "queryDate": "2026-05-20",
+  "granularity": "Diaria",
+  "category": "Listado de Embalses que sirven al Sistema Interconectado Nacional",
+  "lastUpdate": "2026-05-21 07:19:31",
+  "columns": [
+    {
+      "nameColumn": "NombreEmbalse",
+      "dataType": "texto",
+      "description": "Nombre de los embalses del sistema interconectado nacional. "
+    },
+    {
+      "nameColumn": "CodigoEmbalse",
+      "dataType": "texto",
+      "description": "Código del embalse"
+    },
+    {
+      "nameColumn": "FechaEjecucion",
+      "dataType": "fecha",
+      "description": "Fecha Extracción del dato"
+    },
+    {
+      "nameColumn": "Fecha",
+      "dataType": "fecha",
+      "description": "Fecha de representación de la información"
+    }
+  ],
+  "columnCount": 4,
+  "recordCountForQueryDate": 32
+}

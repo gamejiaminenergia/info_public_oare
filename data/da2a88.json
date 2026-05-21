@@ -1,0 +1,62 @@
+{
+  "datasetId": "da2a88",
+  "datasetName": "Cobertura de la demanda de UNR",
+  "queryDate": "2026-05-20",
+  "granularity": "Mensual",
+  "category": "Cobertura de la demanda de UNR",
+  "lastUpdate": "2026-05-20 03:39:30",
+  "columns": [
+    {
+      "nameColumn": "FechaPublicacionCttos",
+      "dataType": "fecha",
+      "description": "Fecha en que se realizó la publicación del dato de contratos"
+    },
+    {
+      "nameColumn": "DemandaUPME",
+      "dataType": "decimal",
+      "description": "Demanda proyectada y publicada por la UPME"
+    },
+    {
+      "nameColumn": "FechaPublicacionUPME",
+      "dataType": "fecha",
+      "description": "Indica la fecha en que la UPME hizo la publicación del dato de la demanda"
+    },
+    {
+      "nameColumn": "DemandaUPMENR",
+      "dataType": "decimal",
+      "description": "Demanda proyectada No Regulada partiendo de la demanda total de la UPME y la participación porcentual del mercado No Regulado en la última facturación disponible del ASIC"
+    },
+    {
+      "nameColumn": "PrcjDemNoRegulada",
+      "dataType": "decimal",
+      "description": "Proporción de la demanda no regulada respecto a la demanda total en la última facturación disponible"
+    },
+    {
+      "nameColumn": "FechaPrcjDemNoReg",
+      "dataType": "fecha",
+      "description": "Fecha en que se calculó el porcentaje de la demanda no regulada"
+    },
+    {
+      "nameColumn": "FechaProyectada",
+      "dataType": "fecha",
+      "description": "Fecha proyectada en que aplica el dato"
+    },
+    {
+      "nameColumn": "PrcjCoberturaUNR",
+      "dataType": "decimal",
+      "description": "Porcentaje de cobertura de la demanda no regulada con contratos con Usuarios No Regulados (UNR)."
+    },
+    {
+      "nameColumn": "CodigoDuracion",
+      "dataType": "texto",
+      "description": "Código de duración de la variable en formato ISO8601"
+    },
+    {
+      "nameColumn": "CantContTotal",
+      "dataType": "decimal",
+      "description": "Cantidad total de energía contratada"
+    }
+  ],
+  "columnCount": 10,
+  "recordCountForQueryDate": 63
+}

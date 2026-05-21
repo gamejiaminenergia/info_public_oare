@@ -1,0 +1,42 @@
+{
+  "datasetId": "30D865",
+  "datasetName": "Histórico anual de los precios de referencia para el traslado al Mercado Regulado --Deprecated--",
+  "queryDate": "2026-05-20",
+  "granularity": "Mensual",
+  "category": "Histórico anual de los precios de referencia para el traslado al Mercado Regulado --Deprecated-- ",
+  "lastUpdate": "2026-02-24 15:06:09",
+  "columns": [
+    {
+      "nameColumn": "FechaFin",
+      "dataType": "fecha",
+      "description": "Fecha final de vigencia del dato"
+    },
+    {
+      "nameColumn": "CodigoVariable",
+      "dataType": "texto",
+      "description": "Código de la variable"
+    },
+    {
+      "nameColumn": "CodigoDerivex",
+      "dataType": "texto",
+      "description": "Son códigos alfanuméricos asignados por Derivex para identificar cada uno de los contratos futuros de energía."
+    },
+    {
+      "nameColumn": "FechaConvocatoria",
+      "dataType": "fecha",
+      "description": "Día en la que se llevó a cabo la Convocatoria de Participación en Subasta de Cierre de acuerdo con el artículo 6 de la Resolución CREG 101 020 de 2022"
+    },
+    {
+      "nameColumn": "FechaInicio",
+      "dataType": "fecha",
+      "description": "Fecha de inicio del dato"
+    },
+    {
+      "nameColumn": "PrecioReferenciaMR",
+      "dataType": "decimal",
+      "description": "Precios de referencia formados en Convocatorias de Participación en Subasta de Cierre para el traslado al Mercado Regulado de acuerdo con el artículo 6 de la Resolución CREG 101 020 de 2022 vigentes en el mes M."
+    }
+  ],
+  "columnCount": 6,
+  "recordCountForQueryDate": 0
+}

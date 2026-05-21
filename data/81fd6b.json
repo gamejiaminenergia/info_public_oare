@@ -1,0 +1,42 @@
+{
+  "datasetId": "81fd6b",
+  "datasetName": "Actuación del Esquema de Deslastre Automático de Carga (EDAC)",
+  "queryDate": "2026-05-20",
+  "granularity": "Diaria",
+  "category": "Actuación del Esquema de Deslastre Automático de Carga (EDAC)",
+  "lastUpdate": "2026-05-21 07:18:41",
+  "columns": [
+    {
+      "nameColumn": "DescripcionEvento",
+      "dataType": "texto",
+      "description": "NULL"
+    },
+    {
+      "nameColumn": "IdentificadorSuceso",
+      "dataType": "texto",
+      "description": "Identificador único del evento o suceso"
+    },
+    {
+      "nameColumn": "CodigoSubAreaOperativa",
+      "dataType": "texto",
+      "description": "Código de la subárea asociada al activo"
+    },
+    {
+      "nameColumn": "EnergiaNoAtendida",
+      "dataType": "decimal",
+      "description": "Cantidad de energía desatendida durante el suceso"
+    },
+    {
+      "nameColumn": "FechaHora",
+      "dataType": "fecha hora",
+      "description": "Fecha y hora de representación del dato"
+    },
+    {
+      "nameColumn": "ValorFrecuencia",
+      "dataType": "decimal",
+      "description": "Valor mínimo de frecuencia alcanzado"
+    }
+  ],
+  "columnCount": 6,
+  "recordCountForQueryDate": 0
+}

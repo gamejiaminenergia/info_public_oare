@@ -1,0 +1,46 @@
+{
+  "datasetId": "8d10e6",
+  "datasetName": "Proyecciones de las cantidades y precios en contratos de energía del Mercado Mayorista por comercializador",
+  "queryDate": "2026-05-20",
+  "granularity": "Mensual",
+  "category": "Proyecciones de las cantidades y precios en contratos de energía del Mercado Mayorista por comercializador",
+  "lastUpdate": "2026-05-05 13:37:40",
+  "columns": [
+    {
+      "nameColumn": "FechaPublicacion",
+      "dataType": "fecha",
+      "description": "Fecha de publicación del dato en el SIMEM"
+    },
+    {
+      "nameColumn": "Mecanismo",
+      "dataType": "texto"
+    },
+    {
+      "nameColumn": "PPP",
+      "dataType": "decimal",
+      "description": "Precio Promedio Ponderado por la variable indicada en la descripción del conjunto de datos"
+    },
+    {
+      "nameColumn": "FechaProyectada",
+      "dataType": "fecha",
+      "description": "Fecha proyectada en que aplica el dato"
+    },
+    {
+      "nameColumn": "CodigoAgenteComprador",
+      "dataType": "texto",
+      "description": "Código asignado por el ASIC al agente comprador"
+    },
+    {
+      "nameColumn": "TipoMercado",
+      "dataType": "texto",
+      "description": "Tipo de Mercado Regulado o No Regulado"
+    },
+    {
+      "nameColumn": "Cantidad",
+      "dataType": "flotante",
+      "description": "Indica las cantidades de energía del contrato"
+    }
+  ],
+  "columnCount": 7,
+  "recordCountForQueryDate": 2058
+}

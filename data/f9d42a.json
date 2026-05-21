@@ -1,0 +1,107 @@
+{
+  "datasetId": "f9d42a",
+  "datasetName": "Precios horarios futuros y estadísticas de los contratos entre agentes por comercializador y generador",
+  "queryDate": "2026-05-20",
+  "granularity": "Mensual",
+  "category": "Precios horarios futuros y estadísticas de los contratos entre agentes por comercializador y generador",
+  "lastUpdate": "2026-05-05 16:48:12",
+  "columns": [
+    {
+      "nameColumn": "TotalContratos",
+      "dataType": "entero",
+      "description": "Número total de contratos. Tamaño de la muestra"
+    },
+    {
+      "nameColumn": "Hora",
+      "dataType": "entero",
+      "description": "Hora en que aplica el dato"
+    },
+    {
+      "nameColumn": "PPS",
+      "dataType": "decimal",
+      "description": "Precio Promedio Simple"
+    },
+    {
+      "nameColumn": "PrecioMaximo",
+      "dataType": "decimal",
+      "description": "Precio máximo (COP/kWh)"
+    },
+    {
+      "nameColumn": "FechaPublicacion",
+      "dataType": "fecha",
+      "description": "Fecha de publicación del dato en el SIMEM"
+    },
+    {
+      "nameColumn": "TipoAgente",
+      "dataType": "texto",
+      "description": "Indica si es agente generador o comercializador"
+    },
+    {
+      "nameColumn": "LimiteInferiorIC95Simple",
+      "dataType": "decimal",
+      "description": "Límite inferior del intervalo de confianza al 95% para el Promedio Simple"
+    },
+    {
+      "nameColumn": "Percentil95",
+      "dataType": "decimal",
+      "description": "Percentil 95 de la distribución de los datos"
+    },
+    {
+      "nameColumn": "LimiteInferiorIC95Ponderado",
+      "dataType": "decimal",
+      "description": "Límite inferior del intervalo de confianza al 95% para el Promedio Ponderado"
+    },
+    {
+      "nameColumn": "PrecioMinimo",
+      "dataType": "decimal",
+      "description": "Precio mínimo (COP/kWh)"
+    },
+    {
+      "nameColumn": "Mediana",
+      "dataType": "decimal",
+      "description": "Mediana de los datos"
+    },
+    {
+      "nameColumn": "PPP",
+      "dataType": "decimal",
+      "description": "Precio Promedio Ponderado por la variable indicada en la descripción del conjunto de datos"
+    },
+    {
+      "nameColumn": "TipoVinculacion",
+      "dataType": "texto",
+      "description": "Indica si el contrato es suministrado entre agentes con vinculación económica"
+    },
+    {
+      "nameColumn": "FechaProyectada",
+      "dataType": "fecha",
+      "description": "Fecha proyectada en que aplica el dato"
+    },
+    {
+      "nameColumn": "CodigoAgenteComprador",
+      "dataType": "texto",
+      "description": "Código asignado por el ASIC al agente comprador"
+    },
+    {
+      "nameColumn": "Percentil5",
+      "dataType": "decimal",
+      "description": "Percentil 5 de la distribución de los datos"
+    },
+    {
+      "nameColumn": "CodigoDuracion",
+      "dataType": "texto",
+      "description": "Código de duración de la variable en formato ISO8601"
+    },
+    {
+      "nameColumn": "LimiteSuperiorIC95Simple",
+      "dataType": "decimal",
+      "description": "Límite superior del intervalo de confianza al 95% para el Promedio Simple"
+    },
+    {
+      "nameColumn": "LimiteSuperiorIC95Ponderado",
+      "dataType": "decimal",
+      "description": "Límite superior del intervalo de confianza al 95% para el Promedio Ponderado"
+    }
+  ],
+  "columnCount": 19,
+  "recordCountForQueryDate": 33503
+}

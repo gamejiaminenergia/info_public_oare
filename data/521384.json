@@ -1,0 +1,47 @@
+{
+  "datasetId": "521384",
+  "datasetName": "Montos de garantías para cubrir las transacciones en el mercado de energía mayorista",
+  "queryDate": "2026-05-20",
+  "granularity": "Diaria",
+  "category": "Montos de garantías para cubrir las transacciones en el mercado de energía mayorista",
+  "lastUpdate": "2026-05-16 12:12:19",
+  "columns": [
+    {
+      "nameColumn": "FechaFin",
+      "dataType": "fecha",
+      "description": "Fecha final de vigencia del dato"
+    },
+    {
+      "nameColumn": "GarantiaTIE",
+      "dataType": "decimal",
+      "description": "Monto de garantía para cubrir las transacciones TIE"
+    },
+    {
+      "nameColumn": "FechaPublicacion",
+      "dataType": "fecha",
+      "description": "Fecha de publicación del dato en el SIMEM"
+    },
+    {
+      "nameColumn": "EsquemaGarantia",
+      "dataType": "texto",
+      "description": "Tipo de esquema seleccionado por el agente para el cálculo de la garantía"
+    },
+    {
+      "nameColumn": "CodigoSICAgente",
+      "dataType": "texto",
+      "description": "Código del agente asignado por el ASIC"
+    },
+    {
+      "nameColumn": "FechaInicio",
+      "dataType": "fecha",
+      "description": "Fecha de inicio del dato"
+    },
+    {
+      "nameColumn": "GarantiaTransaccionesMEM",
+      "dataType": "decimal",
+      "description": "Monto de garantía para cubrir las transacciones del mercado"
+    }
+  ],
+  "columnCount": 7,
+  "recordCountForQueryDate": 0
+}

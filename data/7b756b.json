@@ -1,0 +1,47 @@
+{
+  "datasetId": "7b756b",
+  "datasetName": "Precios promedios horarios mensuales de contratos con UNR para el total del SIN",
+  "queryDate": "2026-05-20",
+  "granularity": "Mensual",
+  "category": "Precios promedios horarios mensuales de contratos con UNR para el total del SIN",
+  "lastUpdate": "2026-05-20 03:19:38",
+  "columns": [
+    {
+      "nameColumn": "Hora",
+      "dataType": "entero",
+      "description": "Hora en que aplica el dato"
+    },
+    {
+      "nameColumn": "PPS",
+      "dataType": "decimal",
+      "description": "Precio Promedio Simple"
+    },
+    {
+      "nameColumn": "FechaPublicacion",
+      "dataType": "fecha",
+      "description": "Fecha de publicación del dato en el SIMEM"
+    },
+    {
+      "nameColumn": "PPP",
+      "dataType": "decimal",
+      "description": "Precio Promedio Ponderado por la variable indicada en la descripción del conjunto de datos"
+    },
+    {
+      "nameColumn": "CodigoDuracion",
+      "dataType": "texto",
+      "description": "Código de duración de la variable en formato ISO8601"
+    },
+    {
+      "nameColumn": "Componente",
+      "dataType": "texto",
+      "description": "Componente del Costo Unitario CU. Comercialización (C), Generación (G)."
+    },
+    {
+      "nameColumn": "Fecha",
+      "dataType": "fecha",
+      "description": "Fecha de representación de la información"
+    }
+  ],
+  "columnCount": 7,
+  "recordCountForQueryDate": 0
+}

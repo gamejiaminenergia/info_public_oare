@@ -1,0 +1,82 @@
+{
+  "datasetId": "d808d4",
+  "datasetName": "Energía de Referencia para el Mercado Secundario",
+  "queryDate": "2026-05-20",
+  "granularity": "Diaria",
+  "category": "Energía de Referencia para el Mercado Secundario",
+  "lastUpdate": "2026-05-16 20:12:10",
+  "columns": [
+    {
+      "nameColumn": "FechaPublicacion",
+      "dataType": "fecha",
+      "description": "Fecha de publicación del dato en el SIMEM"
+    },
+    {
+      "nameColumn": "VCMSEDA",
+      "dataType": "decimal",
+      "description": "Ventas en Contratos del Mercado Secundario de EDA"
+    },
+    {
+      "nameColumn": "VCMSTotales",
+      "dataType": "decimal",
+      "description": "Ventas en Contratos del Mercado Secundario totales (ENFICC + EDA)"
+    },
+    {
+      "nameColumn": "CodigoPlanta",
+      "dataType": "texto",
+      "description": "Código de la planta"
+    },
+    {
+      "nameColumn": "OEF",
+      "dataType": "decimal",
+      "description": "Obligaciones de Energía Firme"
+    },
+    {
+      "nameColumn": "ENFICCNoComp",
+      "dataType": "decimal",
+      "description": "ENFICC No Comprometida"
+    },
+    {
+      "nameColumn": "VCMSENFICC",
+      "dataType": "decimal",
+      "description": "Ventas en Contratos del Mercado Secundario de ENFICC"
+    },
+    {
+      "nameColumn": "CodigoSICAgente",
+      "dataType": "texto",
+      "description": "Código del agente asignado por el ASIC"
+    },
+    {
+      "nameColumn": "EDA",
+      "dataType": "decimal",
+      "description": "Energía Disponible Adicional"
+    },
+    {
+      "nameColumn": "ENFICCVerificada",
+      "dataType": "decimal",
+      "description": "Energía Firme del Cargo por Confiabilidad - ENFICC verificada"
+    },
+    {
+      "nameColumn": "EDANoComp",
+      "dataType": "decimal",
+      "description": "Energía Disponible Adicional No Comprometida"
+    },
+    {
+      "nameColumn": "CodigoDuracion",
+      "dataType": "texto",
+      "description": "Código de duración de la variable en formato ISO8601"
+    },
+    {
+      "nameColumn": "EnergiaReferenciaMercadoSecundario",
+      "dataType": "decimal",
+      "description": "Energía de Referencia para el Mercado Secundario"
+    },
+    {
+      "nameColumn": "Fecha",
+      "dataType": "fecha",
+      "description": "Fecha de representación de la información"
+    }
+  ],
+  "columnCount": 14,
+  "recordCountForQueryDate": 73
+}

@@ -1,0 +1,47 @@
+{
+  "datasetId": "37A508",
+  "datasetName": "Deprecated --Panorama energético Corto Plazo Embalse",
+  "queryDate": "2026-05-20",
+  "granularity": "Horaria",
+  "category": "Deprecated --Panorama energético Corto Plazo Embalse",
+  "lastUpdate": "2026-04-22 16:06:00",
+  "columns": [
+    {
+      "nameColumn": "NombreEmbalse",
+      "dataType": "texto",
+      "description": "Nombre de los embalses del sistema interconectado nacional. "
+    },
+    {
+      "nameColumn": "Valor",
+      "dataType": "decimal",
+      "description": "Valor de la variable (escala de 4 cifras)"
+    },
+    {
+      "nameColumn": "FechaPublicacion",
+      "dataType": "fecha",
+      "description": "Fecha de publicación del dato en el SIMEM"
+    },
+    {
+      "nameColumn": "VolumenInicial",
+      "dataType": "decimal",
+      "description": "Valor inicial del embalse en Mm3 para el periodo 0 del lunes correspondiente"
+    },
+    {
+      "nameColumn": "Caso",
+      "dataType": "texto",
+      "description": "Identificador del caso de estudio"
+    },
+    {
+      "nameColumn": "FechaHora",
+      "dataType": "fecha hora",
+      "description": "Fecha y hora de representación del dato"
+    },
+    {
+      "nameColumn": "CodigoDuracion",
+      "dataType": "texto",
+      "description": "Código de duración de la variable en formato ISO8601"
+    }
+  ],
+  "columnCount": 7,
+  "recordCountForQueryDate": 0
+}

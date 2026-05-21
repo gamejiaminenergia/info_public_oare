@@ -1,0 +1,47 @@
+{
+  "datasetId": "306c67",
+  "datasetName": "Asignaciones de OEF por planta --Deprecated--",
+  "queryDate": "2026-05-20",
+  "granularity": "Anual",
+  "category": "Asignaciones de OEF por planta --Deprecated--",
+  "lastUpdate": "2026-03-23 03:21:01",
+  "columns": [
+    {
+      "nameColumn": "FechaPublicacion",
+      "dataType": "fecha",
+      "description": "Fecha de publicación del dato en el SIMEM"
+    },
+    {
+      "nameColumn": "CodigoPlanta",
+      "dataType": "texto",
+      "description": "Código de la planta"
+    },
+    {
+      "nameColumn": "OEF",
+      "dataType": "decimal",
+      "description": "Obligaciones de Energía Firme"
+    },
+    {
+      "nameColumn": "FechaFinCargo",
+      "dataType": "fecha",
+      "description": "Fecha en que finaliza la vigencia del periodo cargo"
+    },
+    {
+      "nameColumn": "Tecnologia",
+      "dataType": "texto",
+      "description": "Tipo de tecnología que respalda la Obligación de Energía Firme"
+    },
+    {
+      "nameColumn": "FechaInicioCargo",
+      "dataType": "fecha",
+      "description": "Fecha en que inicia la vigencia del periodo cargo"
+    },
+    {
+      "nameColumn": "CodigoSICAgente",
+      "dataType": "texto",
+      "description": "Código del agente asignado por el ASIC"
+    }
+  ],
+  "columnCount": 7,
+  "recordCountForQueryDate": 207
+}

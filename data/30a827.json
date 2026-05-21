@@ -1,0 +1,42 @@
+{
+  "datasetId": "30a827",
+  "datasetName": "Precios futuros mensuales de contratos con UNR para el total del SIN",
+  "queryDate": "2026-05-20",
+  "granularity": "Mensual",
+  "category": "Precios futuros mensuales de contratos con UNR para el total del SIN",
+  "lastUpdate": "2026-05-20 03:25:58",
+  "columns": [
+    {
+      "nameColumn": "PPS",
+      "dataType": "decimal",
+      "description": "Precio Promedio Simple"
+    },
+    {
+      "nameColumn": "FechaPublicacion",
+      "dataType": "fecha",
+      "description": "Fecha de publicación del dato en el SIMEM"
+    },
+    {
+      "nameColumn": "PPP",
+      "dataType": "decimal",
+      "description": "Precio Promedio Ponderado por la variable indicada en la descripción del conjunto de datos"
+    },
+    {
+      "nameColumn": "FechaProyectada",
+      "dataType": "fecha",
+      "description": "Fecha proyectada en que aplica el dato"
+    },
+    {
+      "nameColumn": "CodigoDuracion",
+      "dataType": "texto",
+      "description": "Código de duración de la variable en formato ISO8601"
+    },
+    {
+      "nameColumn": "Componente",
+      "dataType": "texto",
+      "description": "Componente del Costo Unitario CU. Comercialización (C), Generación (G)."
+    }
+  ],
+  "columnCount": 6,
+  "recordCountForQueryDate": 70
+}

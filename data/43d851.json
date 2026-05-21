@@ -1,0 +1,32 @@
+{
+  "datasetId": "43d851",
+  "datasetName": "Cargos por uso del STN",
+  "queryDate": "2026-05-20",
+  "granularity": "Mensual",
+  "category": "Cargos por uso del STN",
+  "lastUpdate": "2026-05-06 08:19:43",
+  "columns": [
+    {
+      "nameColumn": "VersionLAC",
+      "dataType": "texto",
+      "description": "Version de la liquidación para el proceso LAC"
+    },
+    {
+      "nameColumn": "CargoMonomio",
+      "dataType": "decimal",
+      "description": "Valor de los cargos por uso de la tarifa"
+    },
+    {
+      "nameColumn": "CodigoDuracion",
+      "dataType": "texto",
+      "description": "Código de duración de la variable en formato ISO8601"
+    },
+    {
+      "nameColumn": "Fecha",
+      "dataType": "fecha",
+      "description": "Fecha de representación de la información"
+    }
+  ],
+  "columnCount": 4,
+  "recordCountForQueryDate": 0
+}

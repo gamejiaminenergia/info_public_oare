@@ -1,0 +1,57 @@
+{
+  "datasetId": "58a1b8",
+  "datasetName": "Horas de indisponibilidad de las líneas de transmisión nacional y regional del SIN",
+  "queryDate": "2026-05-20",
+  "granularity": "Mensual",
+  "category": "Horas de indisponibilidad de las líneas de transmisión nacional y regional del SIN",
+  "lastUpdate": "2026-05-12 14:13:07",
+  "columns": [
+    {
+      "nameColumn": "NombreLinea",
+      "dataType": "texto",
+      "description": "Nombre de la línea"
+    },
+    {
+      "nameColumn": "Valor",
+      "dataType": "decimal",
+      "description": "Valor de la variable (escala de 4 cifras)"
+    },
+    {
+      "nameColumn": "CodigoAreaOperativa",
+      "dataType": "texto",
+      "description": "Código del área operativa eléctrica"
+    },
+    {
+      "nameColumn": "CodigoSubAreaOperativa",
+      "dataType": "texto",
+      "description": "Código de la subárea asociada al activo"
+    },
+    {
+      "nameColumn": "CodigoOperador",
+      "dataType": "texto",
+      "description": "Codigo del operador del activo"
+    },
+    {
+      "nameColumn": "CodigoDuracion",
+      "dataType": "texto",
+      "description": "Código de duración de la variable en formato ISO8601"
+    },
+    {
+      "nameColumn": "Tension",
+      "dataType": "decimal",
+      "description": "Nivel de tensión alcanzado en el suceso"
+    },
+    {
+      "nameColumn": "CodigoLinea",
+      "dataType": "texto",
+      "description": "Código de la línea"
+    },
+    {
+      "nameColumn": "Fecha",
+      "dataType": "fecha",
+      "description": "Fecha de representación de la información"
+    }
+  ],
+  "columnCount": 9,
+  "recordCountForQueryDate": 0
+}

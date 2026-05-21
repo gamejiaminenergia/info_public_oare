@@ -1,0 +1,67 @@
+{
+  "datasetId": "7F18B1",
+  "datasetName": "Listado de plantas de generación en pruebas",
+  "queryDate": "2026-05-20",
+  "granularity": "Diaria",
+  "category": "Listado de plantas de generación en pruebas",
+  "lastUpdate": "2026-05-21 08:26:34",
+  "columns": [
+    {
+      "nameColumn": "CapacidadEfectivaNeta",
+      "dataType": "decimal",
+      "description": "Capacidad Efectiva Neta de las plantas de generación"
+    },
+    {
+      "nameColumn": "FechaPublicacion",
+      "dataType": "fecha",
+      "description": "Fecha de publicación del dato en el SIMEM"
+    },
+    {
+      "nameColumn": "NombrePlanta",
+      "dataType": "texto",
+      "description": "Nombre de la planta/recurso de generación"
+    },
+    {
+      "nameColumn": "CodigoPlanta",
+      "dataType": "texto",
+      "description": "Código de la planta"
+    },
+    {
+      "nameColumn": "CodigoAreaOperativa",
+      "dataType": "texto",
+      "description": "Código del área operativa eléctrica"
+    },
+    {
+      "nameColumn": "TipoGeneracion",
+      "dataType": "texto",
+      "description": "Tipo de clasificación del recurso de generación"
+    },
+    {
+      "nameColumn": "CodigoSICAgente",
+      "dataType": "texto",
+      "description": "Código del agente asignado por el ASIC"
+    },
+    {
+      "nameColumn": "TipoClasificacion",
+      "dataType": "texto",
+      "description": "Clasificación del generador según la regulación actual"
+    },
+    {
+      "nameColumn": "CodigoSubAreaOperativa",
+      "dataType": "texto",
+      "description": "Código de la subárea asociada al activo"
+    },
+    {
+      "nameColumn": "Fecha",
+      "dataType": "fecha",
+      "description": "Fecha de representación de la información"
+    },
+    {
+      "nameColumn": "TipoDespachoRecurso",
+      "dataType": "texto",
+      "description": "Tipo de despacho del recurso"
+    }
+  ],
+  "columnCount": 11,
+  "recordCountForQueryDate": 151
+}

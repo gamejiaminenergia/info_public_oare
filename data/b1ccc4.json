@@ -1,0 +1,47 @@
+{
+  "datasetId": "b1ccc4",
+  "datasetName": "Precios promedios mensuales de contratos con UNR por mercado de comercialización",
+  "queryDate": "2026-05-20",
+  "granularity": "Mensual",
+  "category": "Precios promedios mensuales de contratos con UNR por mercado de comercialización",
+  "lastUpdate": "2026-05-20 03:17:29",
+  "columns": [
+    {
+      "nameColumn": "MercadoComercializacion",
+      "dataType": "texto",
+      "description": "Mercado de comercialización operativo"
+    },
+    {
+      "nameColumn": "PPS",
+      "dataType": "decimal",
+      "description": "Precio Promedio Simple"
+    },
+    {
+      "nameColumn": "FechaPublicacion",
+      "dataType": "fecha",
+      "description": "Fecha de publicación del dato en el SIMEM"
+    },
+    {
+      "nameColumn": "PPP",
+      "dataType": "decimal",
+      "description": "Precio Promedio Ponderado por la variable indicada en la descripción del conjunto de datos"
+    },
+    {
+      "nameColumn": "CodigoDuracion",
+      "dataType": "texto",
+      "description": "Código de duración de la variable en formato ISO8601"
+    },
+    {
+      "nameColumn": "Componente",
+      "dataType": "texto",
+      "description": "Componente del Costo Unitario CU. Comercialización (C), Generación (G)."
+    },
+    {
+      "nameColumn": "Fecha",
+      "dataType": "fecha",
+      "description": "Fecha de representación de la información"
+    }
+  ],
+  "columnCount": 7,
+  "recordCountForQueryDate": 0
+}

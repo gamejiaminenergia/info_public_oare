@@ -1,0 +1,27 @@
+{
+  "datasetId": "568929",
+  "datasetName": "Listado de Operadores de activos del Sistema Interconectado Nacional",
+  "queryDate": "2026-05-20",
+  "granularity": "Diaria",
+  "category": "Listado de Operadores de activos del Sistema Interconectado Nacional",
+  "lastUpdate": "2026-05-21 07:20:12",
+  "columns": [
+    {
+      "nameColumn": "NombreOperador",
+      "dataType": "texto",
+      "description": "Nombre del Operador del activo ante el CND"
+    },
+    {
+      "nameColumn": "CodigoOperador",
+      "dataType": "texto",
+      "description": "Codigo del operador del activo"
+    },
+    {
+      "nameColumn": "Fecha",
+      "dataType": "fecha",
+      "description": "Fecha de representación de la información"
+    }
+  ],
+  "columnCount": 3,
+  "recordCountForQueryDate": 260
+}

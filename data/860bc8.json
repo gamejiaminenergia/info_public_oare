@@ -1,0 +1,47 @@
+{
+  "datasetId": "860bc8",
+  "datasetName": "Duración promedio de los contratos producto de convocatorias del SICEP para el mercado regulado",
+  "queryDate": "2026-05-20",
+  "granularity": "Mensual",
+  "category": "Duración promedio de los contratos producto de convocatorias del SICEP para el mercado regulado",
+  "lastUpdate": "2026-05-05 13:20:14",
+  "columns": [
+    {
+      "nameColumn": "FechaPublicacion",
+      "dataType": "fecha",
+      "description": "Fecha de publicación del dato en el SIMEM"
+    },
+    {
+      "nameColumn": "DuracionMediana",
+      "dataType": "decimal",
+      "description": "Mediana de la duración de los contratos"
+    },
+    {
+      "nameColumn": "DuracionMaxima",
+      "dataType": "decimal",
+      "description": "Duración máxima de los contratos"
+    },
+    {
+      "nameColumn": "FechaProyectada",
+      "dataType": "fecha",
+      "description": "Fecha proyectada en que aplica el dato"
+    },
+    {
+      "nameColumn": "CodigoDuracion",
+      "dataType": "texto",
+      "description": "Código de duración de la variable en formato ISO8601"
+    },
+    {
+      "nameColumn": "DuracionPromedio",
+      "dataType": "decimal",
+      "description": "Duración promedio de los contratos"
+    },
+    {
+      "nameColumn": "DuracionMinima",
+      "dataType": "decimal",
+      "description": "Duración mínima de los contratos "
+    }
+  ],
+  "columnCount": 7,
+  "recordCountForQueryDate": 33
+}

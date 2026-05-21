@@ -1,0 +1,42 @@
+{
+  "datasetId": "b38efc",
+  "datasetName": "Energía Firme del Cargo por Confiabilidad verificada por el Centro Nacional de Despacho",
+  "queryDate": "2026-05-20",
+  "granularity": "Diaria",
+  "category": "Energía Firme del Cargo por Confiabilidad verificada por el Centro Nacional de Despacho",
+  "lastUpdate": "2026-05-21 09:15:37",
+  "columns": [
+    {
+      "nameColumn": "FechaFin",
+      "dataType": "fecha",
+      "description": "Fecha final de vigencia del dato"
+    },
+    {
+      "nameColumn": "FechaPublicacion",
+      "dataType": "fecha",
+      "description": "Fecha de publicación del dato en el SIMEM"
+    },
+    {
+      "nameColumn": "CodigoPlanta",
+      "dataType": "texto",
+      "description": "Código de la planta"
+    },
+    {
+      "nameColumn": "FechaInicio",
+      "dataType": "fecha",
+      "description": "Fecha de inicio del dato"
+    },
+    {
+      "nameColumn": "ENFICCVerificada",
+      "dataType": "decimal",
+      "description": "Energía Firme del Cargo por Confiabilidad - ENFICC verificada"
+    },
+    {
+      "nameColumn": "Fecha",
+      "dataType": "fecha",
+      "description": "Fecha de representación de la información"
+    }
+  ],
+  "columnCount": 6,
+  "recordCountForQueryDate": 73
+}

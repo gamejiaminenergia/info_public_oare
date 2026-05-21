@@ -1,0 +1,42 @@
+{
+  "datasetId": "843497",
+  "datasetName": "Reservas Hidráulicas en Porcentaje",
+  "queryDate": "2026-05-20",
+  "granularity": "Diaria",
+  "category": "Reservas Hidráulicas en Porcentaje",
+  "lastUpdate": "2026-05-21 08:23:16",
+  "columns": [
+    {
+      "nameColumn": "VolumenPorcentaje",
+      "dataType": "decimal",
+      "description": "Es el volumen total diario en porcentaje, estimado a partir del volumen útil y el volumen total del embalse . "
+    },
+    {
+      "nameColumn": "FechaPublicacion",
+      "dataType": "fecha",
+      "description": "Fecha de publicación del dato en el SIMEM"
+    },
+    {
+      "nameColumn": "RegionHidrologica",
+      "dataType": "texto",
+      "description": "Zona geográfica en la cual se agrupan elementos con características hidrológicas similares."
+    },
+    {
+      "nameColumn": "CodigoEmbalse",
+      "dataType": "texto",
+      "description": "Código del embalse"
+    },
+    {
+      "nameColumn": "Fecha",
+      "dataType": "fecha",
+      "description": "Fecha de representación de la información"
+    },
+    {
+      "nameColumn": "VolumenUtilPorcentaje",
+      "dataType": "decimal",
+      "description": "Es el volumen util diario en porcentaje, estimado a partir del volumen útil y la capacidad útil del embalse . "
+    }
+  ],
+  "columnCount": 6,
+  "recordCountForQueryDate": 25
+}

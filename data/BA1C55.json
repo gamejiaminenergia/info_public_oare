@@ -1,0 +1,47 @@
+{
+  "datasetId": "BA1C55",
+  "datasetName": "Aportes Hídricos en Energía",
+  "queryDate": "2026-05-20",
+  "granularity": "Diaria",
+  "category": "Aportes Hídricos en Energía",
+  "lastUpdate": "2026-05-21 08:26:16",
+  "columns": [
+    {
+      "nameColumn": "FechaPublicacion",
+      "dataType": "fecha",
+      "description": "Fecha de publicación del dato en el SIMEM"
+    },
+    {
+      "nameColumn": "AportesHidricosEnergia",
+      "dataType": "decimal",
+      "description": "Aporte hídrico asociado con un recurso de generación despachado centralmente. "
+    },
+    {
+      "nameColumn": "RegionHidrologica",
+      "dataType": "texto",
+      "description": "Zona geográfica en la cual se agrupan elementos con características hidrológicas similares."
+    },
+    {
+      "nameColumn": "CodigoSerieHidrologica",
+      "dataType": "texto",
+      "description": "Código único para identificar una serie hidrologica o un río del Sistema Interconectado Nacional"
+    },
+    {
+      "nameColumn": "PromedioAcumuladoEnergia",
+      "dataType": "decimal",
+      "description": "Aportes hidricos promedio para lo que va corrido del mes."
+    },
+    {
+      "nameColumn": "Fecha",
+      "dataType": "fecha",
+      "description": "Fecha de representación de la información"
+    },
+    {
+      "nameColumn": "MediaHistoricaEnergia",
+      "dataType": "decimal",
+      "description": "Promedio mensual multianual de la serie hidrológica aprobada por Acuerdo CNO"
+    }
+  ],
+  "columnCount": 7,
+  "recordCountForQueryDate": 44
+}

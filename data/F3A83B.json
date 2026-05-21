@@ -1,0 +1,72 @@
+{
+  "datasetId": "F3A83B",
+  "datasetName": "Estadísticas de contratos de Demanda Desconectable Voluntaria (DDV)",
+  "queryDate": "2026-05-20",
+  "granularity": "Mensual",
+  "category": "Estadísticas de contratos de Demanda Desconectable Voluntaria (DDV)",
+  "lastUpdate": "2026-05-21 08:31:44",
+  "columns": [
+    {
+      "nameColumn": "PPP_USDMWh",
+      "dataType": "decimal",
+      "description": "Precio Promedio Ponderado por la variable indicada en la descripción del conjunto de datos en USD/MWh"
+    },
+    {
+      "nameColumn": "ContratosConVigenciasNoCeros",
+      "dataType": "entero",
+      "description": "Indica el total de contratos registrados que NO contienen vigencias con precio cero"
+    },
+    {
+      "nameColumn": "EnergiaDDVVigenciasNoCeros",
+      "dataType": "decimal",
+      "description": "Energía comprometida en Demanda Desconectable Voluntaria para los contratos que NO contienen vigencias con precio cero"
+    },
+    {
+      "nameColumn": "NumeroDeContratos",
+      "dataType": "entero",
+      "description": "Número total de contratos"
+    },
+    {
+      "nameColumn": "EnergiaDDVVigenciasEnCeros",
+      "dataType": "decimal",
+      "description": "Energía comprometida en Demanda Desconectable Voluntaria para los contratos que contienen vigencias con precio cero"
+    },
+    {
+      "nameColumn": "PPS_COPkWh",
+      "dataType": "decimal",
+      "description": "Precio Promedio Simple en COP/kWh"
+    },
+    {
+      "nameColumn": "FechaPublicacion",
+      "dataType": "fecha",
+      "description": "Fecha de publicación del dato en el SIMEM"
+    },
+    {
+      "nameColumn": "PPS_USDMWh",
+      "dataType": "decimal",
+      "description": "Precio Promedio Simple en USD/MWh"
+    },
+    {
+      "nameColumn": "ContratosConVigenciasEnCeros",
+      "dataType": "entero",
+      "description": "Indica el total de contratos registrados que contienen vigencias con precio cero"
+    },
+    {
+      "nameColumn": "PPP_COPkWh",
+      "dataType": "decimal",
+      "description": "Precio Promedio Ponderado por la variable indicada en la descripción del conjunto de datos en COP/kWh"
+    },
+    {
+      "nameColumn": "CodigoDuracion",
+      "dataType": "texto",
+      "description": "Código de duración de la variable en formato ISO8601"
+    },
+    {
+      "nameColumn": "Fecha",
+      "dataType": "fecha",
+      "description": "Fecha de representación de la información"
+    }
+  ],
+  "columnCount": 12,
+  "recordCountForQueryDate": 1
+}

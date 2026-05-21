@@ -1,0 +1,122 @@
+{
+  "datasetId": "7538fd",
+  "datasetName": "Parámetros técnicos de las líneas de transmisión",
+  "queryDate": "2026-05-20",
+  "granularity": "Diaria",
+  "category": "Parámetros técnicos de las líneas de transmisión",
+  "lastUpdate": "2026-05-20 11:22:46",
+  "columns": [
+    {
+      "nameColumn": "NombreLinea",
+      "dataType": "texto",
+      "description": "Nombre de la línea"
+    },
+    {
+      "nameColumn": "LongitudNivelTension",
+      "dataType": "decimal",
+      "description": "Longitud total de la líneas para un mismo nivel de tension"
+    },
+    {
+      "nameColumn": "Sistema",
+      "dataType": "texto",
+      "description": "Sistema al que pertenece la lÍnea, es decir, si el elemento es del STN o del STR."
+    },
+    {
+      "nameColumn": "CodigoSubestacionOrigen",
+      "dataType": "texto",
+      "description": "Código de la subestación de origen de la línea de transmisión"
+    },
+    {
+      "nameColumn": "LongitudTotal",
+      "dataType": "decimal",
+      "description": "Longitud total de la líneas del Sistema Interconectado Nacional"
+    },
+    {
+      "nameColumn": "FechaPublicacion",
+      "dataType": "fecha",
+      "description": "Fecha de publicación del dato en el SIMEM"
+    },
+    {
+      "nameColumn": "CodigoSubAreaOperativaDestino",
+      "dataType": "texto",
+      "description": "Código de la subárea operativa de destino de la línea de transmisión"
+    },
+    {
+      "nameColumn": "ParticipacionLineaNivelTension",
+      "dataType": "decimal",
+      "description": "Porcentaje de participación de la línea sobre el total del mismo nivel tensión"
+    },
+    {
+      "nameColumn": "ParticipacionLineaTotal",
+      "dataType": "decimal",
+      "description": "Porcentaje de participación de la línea sobre el total del Sistema Interconectado Nacional"
+    },
+    {
+      "nameColumn": "CodigoAreaOperativa",
+      "dataType": "texto",
+      "description": "Código del área operativa eléctrica"
+    },
+    {
+      "nameColumn": "CodigoSubAreaOperativaOrigen",
+      "dataType": "texto",
+      "description": "Código de la subárea operativa de origen de la línea de transmisión"
+    },
+    {
+      "nameColumn": "CodigoAreaOperativaOrigen",
+      "dataType": "texto",
+      "description": "Código del área operativa de origen de la línea de transmisión"
+    },
+    {
+      "nameColumn": "CodigoSubAreaOperativa",
+      "dataType": "texto",
+      "description": "Código de la subárea asociada al activo"
+    },
+    {
+      "nameColumn": "CodigoOperador",
+      "dataType": "texto",
+      "description": "Codigo del operador del activo"
+    },
+    {
+      "nameColumn": "FPO",
+      "dataType": "fecha",
+      "description": "Fecha de Puesta en Operación"
+    },
+    {
+      "nameColumn": "CodigoDuracion",
+      "dataType": "texto",
+      "description": "Código de duración de la variable en formato ISO8601"
+    },
+    {
+      "nameColumn": "CodigoSubestacionDestino",
+      "dataType": "texto",
+      "description": "Código de la subestación de destino de la línea de transmisión"
+    },
+    {
+      "nameColumn": "Tension",
+      "dataType": "decimal",
+      "description": "Nivel de tensión alcanzado en el suceso"
+    },
+    {
+      "nameColumn": "CodigoLinea",
+      "dataType": "texto",
+      "description": "Código de la línea"
+    },
+    {
+      "nameColumn": "Fecha",
+      "dataType": "fecha",
+      "description": "Fecha de representación de la información"
+    },
+    {
+      "nameColumn": "Longitud",
+      "dataType": "decimal",
+      "description": "Longitud total de la línea"
+    },
+    {
+      "nameColumn": "CodigoAreaOperativaDestino",
+      "dataType": "texto",
+      "description": "Código del área operativa de destino de la línea de transmisión"
+    }
+  ],
+  "columnCount": 22,
+  "recordCountForQueryDate": 855
+}

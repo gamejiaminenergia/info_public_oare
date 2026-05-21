@@ -1,0 +1,57 @@
+{
+  "datasetId": "a704ee",
+  "datasetName": "Datos soporte del proceso de liquidación por Código sic agente, Recurso, Tipo combustible, versión y mensual",
+  "queryDate": "2026-05-20",
+  "granularity": "Mensual",
+  "category": "Datos soporte del proceso de liquidación por Código sic agente, Recurso, Tipo combustible, versión y mensual",
+  "lastUpdate": "2026-05-11 06:36:33",
+  "columns": [
+    {
+      "nameColumn": "CodigoVariable",
+      "dataType": "texto",
+      "description": "Código de la variable"
+    },
+    {
+      "nameColumn": "Valor",
+      "dataType": "decimal",
+      "description": "Valor de la variable (escala de 4 cifras)"
+    },
+    {
+      "nameColumn": "TipoCombustible",
+      "dataType": "texto",
+      "description": "Tipo Combustible"
+    },
+    {
+      "nameColumn": "CodigoPlanta",
+      "dataType": "texto",
+      "description": "Código de la planta"
+    },
+    {
+      "nameColumn": "UnidadMedida",
+      "dataType": "texto",
+      "description": "Unidad de medida en la que se encuentra la variable"
+    },
+    {
+      "nameColumn": "CodigoSICAgente",
+      "dataType": "texto",
+      "description": "Código del agente asignado por el ASIC"
+    },
+    {
+      "nameColumn": "FechaInicio",
+      "dataType": "fecha",
+      "description": "Fecha de inicio del dato"
+    },
+    {
+      "nameColumn": "Version",
+      "dataType": "texto",
+      "description": "Versión de la liquidación"
+    },
+    {
+      "nameColumn": "CodigoDuracion",
+      "dataType": "texto",
+      "description": "Código de duración de la variable en formato ISO8601"
+    }
+  ],
+  "columnCount": 9,
+  "recordCountForQueryDate": 0
+}

@@ -1,0 +1,42 @@
+{
+  "datasetId": "7DACE2",
+  "datasetName": "Estadísticas de Horas de indisponibilidad de las líneas de transmisión nacional y regional del SIN",
+  "queryDate": "2026-05-20",
+  "granularity": "Mensual",
+  "category": "Estadísticas de Horas de indisponibilidad de las líneas de transmisión nacional y regional del SIN",
+  "lastUpdate": "2026-05-12 14:12:59",
+  "columns": [
+    {
+      "nameColumn": "PromedioSimpleEstadisticoHorasIndisponibilidad",
+      "dataType": "decimal",
+      "description": "Promedio simple de horas de indisponibilidad de líneas"
+    },
+    {
+      "nameColumn": "DesvEstMensualHorasIndisponibilidad",
+      "dataType": "decimal",
+      "description": "Desviación estandar de horas de indisponibilidad de líneas"
+    },
+    {
+      "nameColumn": "CodigoSubAreaOperativa",
+      "dataType": "texto",
+      "description": "Código de la subárea asociada al activo"
+    },
+    {
+      "nameColumn": "CodigoOperador",
+      "dataType": "texto",
+      "description": "Codigo del operador del activo"
+    },
+    {
+      "nameColumn": "CodigoDuracion",
+      "dataType": "texto",
+      "description": "Código de duración de la variable en formato ISO8601"
+    },
+    {
+      "nameColumn": "Fecha",
+      "dataType": "fecha",
+      "description": "Fecha de representación de la información"
+    }
+  ],
+  "columnCount": 6,
+  "recordCountForQueryDate": 0
+}

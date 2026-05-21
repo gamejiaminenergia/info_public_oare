@@ -1,0 +1,27 @@
+{
+  "datasetId": "F99E13",
+  "datasetName": "Listado de Subestaciones del STN y el STR",
+  "queryDate": "2026-05-20",
+  "granularity": "Diaria",
+  "category": "Listado de Subestaciones del STN y el STR",
+  "lastUpdate": "2026-05-21 07:18:06",
+  "columns": [
+    {
+      "nameColumn": "NombreSubestacion",
+      "dataType": "texto",
+      "description": "Nombre de la Subestación que pertenece al SIN"
+    },
+    {
+      "nameColumn": "CodigoSubestacion",
+      "dataType": "texto",
+      "description": "Codigo de la subestación ante el CND"
+    },
+    {
+      "nameColumn": "Fecha",
+      "dataType": "fecha",
+      "description": "Fecha de representación de la información"
+    }
+  ],
+  "columnCount": 3,
+  "recordCountForQueryDate": 512
+}

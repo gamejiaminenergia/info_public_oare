@@ -1,0 +1,47 @@
+{
+  "datasetId": "51fea2",
+  "datasetName": "Bandera de pruebas de disponibilidad programadas en la operación por el Centro Nacional de Despacho",
+  "queryDate": "2026-05-20",
+  "granularity": "Horaria",
+  "category": "Bandera de pruebas de disponibilidad programadas en la operación por el Centro Nacional de Despacho",
+  "lastUpdate": "2026-05-20 19:30:20",
+  "columns": [
+    {
+      "nameColumn": "CodigoVariable",
+      "dataType": "texto",
+      "description": "Código de la variable"
+    },
+    {
+      "nameColumn": "CodigoPlanta",
+      "dataType": "texto",
+      "description": "Código de la planta"
+    },
+    {
+      "nameColumn": "ValorTexto",
+      "dataType": "texto",
+      "description": "Valor de la variable indicada"
+    },
+    {
+      "nameColumn": "UnidadMedida",
+      "dataType": "texto",
+      "description": "Unidad de medida en la que se encuentra la variable"
+    },
+    {
+      "nameColumn": "Version",
+      "dataType": "texto",
+      "description": "Versión de la liquidación"
+    },
+    {
+      "nameColumn": "FechaHora",
+      "dataType": "fecha hora",
+      "description": "Fecha y hora de representación del dato"
+    },
+    {
+      "nameColumn": "CodigoDuracion",
+      "dataType": "texto",
+      "description": "Código de duración de la variable en formato ISO8601"
+    }
+  ],
+  "columnCount": 7,
+  "recordCountForQueryDate": 0
+}

@@ -1,0 +1,92 @@
+{
+  "datasetId": "385613",
+  "datasetName": "Resultados de las Subastas de Reconfiguración",
+  "queryDate": "2026-05-20",
+  "granularity": "Anual",
+  "category": "Resultados de las Subastas de Reconfiguración",
+  "lastUpdate": "2025-08-20 21:10:41",
+  "columns": [
+    {
+      "nameColumn": "FechaInicioSubasta",
+      "dataType": "fecha",
+      "description": "Fecha inicio de la vigencia que asignó la subasta"
+    },
+    {
+      "nameColumn": "ValorConcepto",
+      "dataType": "decimal",
+      "description": "Valor del concepto indicado"
+    },
+    {
+      "nameColumn": "PrecioCierre",
+      "dataType": "decimal",
+      "description": "Precio de cierre de la subasta o mecanismo correspondiente"
+    },
+    {
+      "nameColumn": "Concepto",
+      "dataType": "texto",
+      "description": "Concepto de la variable"
+    },
+    {
+      "nameColumn": "FechaPublicacion",
+      "dataType": "fecha",
+      "description": "Fecha de publicación del dato en el SIMEM"
+    },
+    {
+      "nameColumn": "CodigoPlanta",
+      "dataType": "texto",
+      "description": "Código de la planta"
+    },
+    {
+      "nameColumn": "FechaInicioObligacion",
+      "dataType": "fecha",
+      "description": "Fecha en que inicia la vigencia del periodo cargo"
+    },
+    {
+      "nameColumn": "FechaFinSubasta",
+      "dataType": "fecha",
+      "description": "Fecha fin de la vigencia que asignó la subasta"
+    },
+    {
+      "nameColumn": "Tecnologia",
+      "dataType": "texto",
+      "description": "Tipo de tecnología que respalda la Obligación de Energía Firme"
+    },
+    {
+      "nameColumn": "PrecioActualizado",
+      "dataType": "decimal",
+      "description": "Valor de precio del cargo por actualizado a valores constante a la fecha de la realización de la publicación"
+    },
+    {
+      "nameColumn": "CodigoSICAgente",
+      "dataType": "texto",
+      "description": "Código del agente asignado por el ASIC"
+    },
+    {
+      "nameColumn": "FechaFinObligacion",
+      "dataType": "fecha",
+      "description": "Fecha en que finaliza la vigencia del periodo cargo"
+    },
+    {
+      "nameColumn": "IPPUSABase",
+      "dataType": "flotante",
+      "description": "Índice de precios al productor de los Estados Unidos base"
+    },
+    {
+      "nameColumn": "IPPUSADeflactor",
+      "dataType": "flotante",
+      "description": "Índice de precios al productor de los Estados Unidos actual"
+    },
+    {
+      "nameColumn": "FechaSubasta",
+      "dataType": "fecha",
+      "description": "Fecha en la que se realizó la última subasta del Cargo por Confiabilidad para el dato correspondiente. Fecha de indexación del IPPUSA base."
+    },
+    {
+      "nameColumn": "Subasta",
+      "dataType": "texto",
+      "description": "Indica el nombre asignado por el ASIC a la subasta"
+    }
+  ],
+  "columnCount": 16,
+  "recordCountForQueryDate": 26
+}

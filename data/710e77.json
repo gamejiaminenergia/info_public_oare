@@ -1,0 +1,37 @@
+{
+  "datasetId": "710e77",
+  "datasetName": "Estadísticas anuales de las convocatorias del SICEP para el mercado regulado",
+  "queryDate": "2026-05-20",
+  "granularity": "Anual",
+  "category": "Estadísticas anuales de las convocatorias del SICEP para el mercado regulado",
+  "lastUpdate": "2026-01-05 06:21:53",
+  "columns": [
+    {
+      "nameColumn": "AgentesAsignados",
+      "dataType": "entero",
+      "description": "Cantidad de agentes asignados"
+    },
+    {
+      "nameColumn": "ConvocatoriasAdjudicadas",
+      "dataType": "entero",
+      "description": "Cantidad de convocatorias adjudicadas"
+    },
+    {
+      "nameColumn": "ContratosRegistrados",
+      "dataType": "entero",
+      "description": "Cantidad de contratos registrados"
+    },
+    {
+      "nameColumn": "CodigoDuracion",
+      "dataType": "texto",
+      "description": "Código de duración de la variable en formato ISO8601"
+    },
+    {
+      "nameColumn": "Fecha",
+      "dataType": "fecha",
+      "description": "Fecha de representación de la información"
+    }
+  ],
+  "columnCount": 5,
+  "recordCountForQueryDate": 0
+}

@@ -1,0 +1,37 @@
+{
+  "datasetId": "547a91",
+  "datasetName": "Fondo de energía social (FOES)",
+  "queryDate": "2026-05-20",
+  "granularity": "Mensual",
+  "category": "Fondo de energía social (FOES)",
+  "lastUpdate": "2026-05-11 10:15:29",
+  "columns": [
+    {
+      "nameColumn": "CodigoVariable",
+      "dataType": "texto",
+      "description": "Código de la variable"
+    },
+    {
+      "nameColumn": "Valor",
+      "dataType": "decimal",
+      "description": "Valor de la variable (escala de 4 cifras)"
+    },
+    {
+      "nameColumn": "VersionLAC",
+      "dataType": "texto",
+      "description": "Version de la liquidación para el proceso LAC"
+    },
+    {
+      "nameColumn": "CodigoSICAgente",
+      "dataType": "texto",
+      "description": "Código del agente asignado por el ASIC"
+    },
+    {
+      "nameColumn": "Fecha",
+      "dataType": "fecha",
+      "description": "Fecha de representación de la información"
+    }
+  ],
+  "columnCount": 5,
+  "recordCountForQueryDate": 0
+}

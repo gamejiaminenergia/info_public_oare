@@ -1,0 +1,32 @@
+{
+  "datasetId": "ff027b",
+  "datasetName": "Despacho programado recursos de generación",
+  "queryDate": "2026-05-20",
+  "granularity": "Horaria",
+  "category": "Despacho programado recursos de generación",
+  "lastUpdate": "2026-05-20 16:20:12",
+  "columns": [
+    {
+      "nameColumn": "Valor",
+      "dataType": "decimal",
+      "description": "Valor de la variable (escala de 4 cifras)"
+    },
+    {
+      "nameColumn": "CodigoElementoGeneracion",
+      "dataType": "texto",
+      "description": "Código del Elemento de Generación: Planta, Unidad o Proyecto"
+    },
+    {
+      "nameColumn": "FechaHora",
+      "dataType": "fecha hora",
+      "description": "Fecha y hora de representación del dato"
+    },
+    {
+      "nameColumn": "CodigoDuracion",
+      "dataType": "texto",
+      "description": "Código de duración de la variable en formato ISO8601"
+    }
+  ],
+  "columnCount": 4,
+  "recordCountForQueryDate": 10632
+}

@@ -1,0 +1,47 @@
+{
+  "datasetId": "6f94cf",
+  "datasetName": "Estadísticas de los pronósticos de energía horaria y demanda de energía atendida horaria por periodo y por mercado de comercialización",
+  "queryDate": "2026-05-20",
+  "granularity": "Mensual",
+  "category": "Estadísticas de los pronósticos de energía horaria y demanda de energía atendida horaria por periodo y por mercado de comercialización",
+  "lastUpdate": "2026-05-06 23:13:44",
+  "columns": [
+    {
+      "nameColumn": "CodigoVariable",
+      "dataType": "texto",
+      "description": "Código de la variable"
+    },
+    {
+      "nameColumn": "Valor",
+      "dataType": "decimal",
+      "description": "Valor de la variable (escala de 4 cifras)"
+    },
+    {
+      "nameColumn": "FechaPublicacion",
+      "dataType": "fecha",
+      "description": "Fecha de publicación del dato en el SIMEM"
+    },
+    {
+      "nameColumn": "MercadoComercializacionOperativo",
+      "dataType": "texto",
+      "description": "Mercado de comercializacion operativo"
+    },
+    {
+      "nameColumn": "Medida",
+      "dataType": "texto",
+      "description": "Medida estadística"
+    },
+    {
+      "nameColumn": "Periodo",
+      "dataType": "entero",
+      "description": "Periodo horario de operación"
+    },
+    {
+      "nameColumn": "Fecha",
+      "dataType": "fecha",
+      "description": "Fecha de representación de la información"
+    }
+  ],
+  "columnCount": 7,
+  "recordCountForQueryDate": 0
+}

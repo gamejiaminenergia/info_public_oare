@@ -1,0 +1,57 @@
+{
+  "datasetId": "509acf",
+  "datasetName": "Reservas en Porcentaje Energético Mediano Plazo",
+  "queryDate": "2026-05-20",
+  "granularity": "Semanal",
+  "category": "Reservas en Porcentaje Energético Mediano Plazo",
+  "lastUpdate": "2026-05-17 19:14:59",
+  "columns": [
+    {
+      "nameColumn": "SemanaEstudio",
+      "dataType": "entero",
+      "description": "Semana desde donde se toman las condiciones iniciales para el estudio de planeamiento energético"
+    },
+    {
+      "nameColumn": "ReservasPorcentaje",
+      "dataType": "flotante",
+      "description": "Reservas almacenadas de energía en porcentaje"
+    },
+    {
+      "nameColumn": "Etapa",
+      "dataType": "entero",
+      "description": "Resolución o paso temporal del horizonte de estudio"
+    },
+    {
+      "nameColumn": "FechaPublicacion",
+      "dataType": "fecha",
+      "description": "Fecha de publicación del dato en el SIMEM"
+    },
+    {
+      "nameColumn": "NombreCaso",
+      "dataType": "texto",
+      "description": "Nemotécnico utilizado para identificar el caso de estudio"
+    },
+    {
+      "nameColumn": "CodigoAreaOperativa",
+      "dataType": "texto",
+      "description": "Código del área operativa eléctrica"
+    },
+    {
+      "nameColumn": "AnioEstudio",
+      "dataType": "entero",
+      "description": "Año desde donde se toman las condiciones iniciales para el estudio de planeamiento energético"
+    },
+    {
+      "nameColumn": "Caso",
+      "dataType": "texto",
+      "description": "Identificador del caso de estudio"
+    },
+    {
+      "nameColumn": "Fecha",
+      "dataType": "fecha",
+      "description": "Fecha de representación de la información"
+    }
+  ],
+  "columnCount": 9,
+  "recordCountForQueryDate": 7829
+}

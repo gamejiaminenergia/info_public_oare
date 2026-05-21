@@ -1,0 +1,52 @@
+{
+  "datasetId": "9b0967",
+  "datasetName": "Demanda Real y Perdidas por Operador de Red, Mercado de comercialización, Tipo de mercado y CIIU",
+  "queryDate": "2026-05-20",
+  "granularity": "Diaria",
+  "category": "Demanda Real y Perdidas por Operador de Red, Mercado de comercialización, Tipo de mercado y CIIU",
+  "lastUpdate": "2026-05-21 08:23:34",
+  "columns": [
+    {
+      "nameColumn": "CodigoVariable",
+      "dataType": "texto",
+      "description": "Código de la variable"
+    },
+    {
+      "nameColumn": "Valor",
+      "dataType": "decimal",
+      "description": "Valor de la variable (escala de 4 cifras)"
+    },
+    {
+      "nameColumn": "MercadoComercializacion",
+      "dataType": "texto",
+      "description": "Mercado de comercialización operativo"
+    },
+    {
+      "nameColumn": "FechaPublicacion",
+      "dataType": "fecha",
+      "description": "Fecha de publicación del dato en el SIMEM"
+    },
+    {
+      "nameColumn": "CodigoSICAgente",
+      "dataType": "texto",
+      "description": "Código del agente asignado por el ASIC"
+    },
+    {
+      "nameColumn": "ClasificacionIndustrial",
+      "dataType": "texto",
+      "description": "Estándar internacional de la ONU para categorizar actividades económicas y productivas"
+    },
+    {
+      "nameColumn": "TipoMercado",
+      "dataType": "texto",
+      "description": "Tipo de Mercado Regulado o No Regulado"
+    },
+    {
+      "nameColumn": "Fecha",
+      "dataType": "fecha",
+      "description": "Fecha de representación de la información"
+    }
+  ],
+  "columnCount": 8,
+  "recordCountForQueryDate": 0
+}

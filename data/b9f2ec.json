@@ -1,0 +1,37 @@
+{
+  "datasetId": "b9f2ec",
+  "datasetName": "Información de Transferencias Internacionales",
+  "queryDate": "2026-05-20",
+  "granularity": "Diaria",
+  "category": "Información de Transferencias Internacionales",
+  "lastUpdate": "2026-05-21 08:29:37",
+  "columns": [
+    {
+      "nameColumn": "PaisInterCambioInternacional",
+      "dataType": "texto",
+      "description": "País con el cual se tiene interconexión internacional"
+    },
+    {
+      "nameColumn": "EnergiaImportadaRealEstimada",
+      "dataType": "long",
+      "description": "Dato de importación real por la transferencia internacional"
+    },
+    {
+      "nameColumn": "CodigoEnlace",
+      "dataType": "texto",
+      "description": "Código del enlace internacional"
+    },
+    {
+      "nameColumn": "Fecha",
+      "dataType": "fecha",
+      "description": "Fecha de representación de la información"
+    },
+    {
+      "nameColumn": "EnergiaImportadaProgramadaRedespacho",
+      "dataType": "long",
+      "description": "Dato de importación programada en el redespacho por la transferencia internacional"
+    }
+  ],
+  "columnCount": 5,
+  "recordCountForQueryDate": 2
+}

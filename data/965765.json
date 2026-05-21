@@ -1,0 +1,36 @@
+{
+  "datasetId": "965765",
+  "datasetName": "Costo unitario SIMEM y SICEP",
+  "queryDate": "2026-05-20",
+  "granularity": "Anual",
+  "lastUpdate": "2026-01-07 15:47:54",
+  "columns": [
+    {
+      "nameColumn": "ValorConcepto",
+      "dataType": "decimal",
+      "description": "Valor del concepto indicado"
+    },
+    {
+      "nameColumn": "Concepto",
+      "dataType": "texto",
+      "description": "Concepto de la variable"
+    },
+    {
+      "nameColumn": "FechaPublicacion",
+      "dataType": "fecha",
+      "description": "Fecha de publicación del dato en el SIMEM"
+    },
+    {
+      "nameColumn": "CodigoDuracion",
+      "dataType": "texto",
+      "description": "Código de duración de la variable en formato ISO8601"
+    },
+    {
+      "nameColumn": "Fecha",
+      "dataType": "fecha",
+      "description": "Fecha de representación de la información"
+    }
+  ],
+  "columnCount": 5,
+  "recordCountForQueryDate": 0
+}

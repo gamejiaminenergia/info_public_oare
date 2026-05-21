@@ -1,0 +1,47 @@
+{
+  "datasetId": "3451bf",
+  "datasetName": "Precio de Oferta Declarado",
+  "queryDate": "2026-05-20",
+  "granularity": "Diaria",
+  "category": "Precio de Oferta Declarado",
+  "lastUpdate": "2026-05-04 07:15:45",
+  "columns": [
+    {
+      "nameColumn": "CodigoVariable",
+      "dataType": "texto",
+      "description": "Código de la variable"
+    },
+    {
+      "nameColumn": "Valor",
+      "dataType": "decimal",
+      "description": "Valor de la variable (escala de 4 cifras)"
+    },
+    {
+      "nameColumn": "CodigoPlanta",
+      "dataType": "texto",
+      "description": "Código de la planta"
+    },
+    {
+      "nameColumn": "UnidadMedida",
+      "dataType": "texto",
+      "description": "Unidad de medida en la que se encuentra la variable"
+    },
+    {
+      "nameColumn": "Configuracion",
+      "dataType": "texto",
+      "description": "Número de la configuración asociado al recurso de generación"
+    },
+    {
+      "nameColumn": "CodigoDuracion",
+      "dataType": "texto",
+      "description": "Código de duración de la variable en formato ISO8601"
+    },
+    {
+      "nameColumn": "Fecha",
+      "dataType": "fecha",
+      "description": "Fecha de representación de la información"
+    }
+  ],
+  "columnCount": 7,
+  "recordCountForQueryDate": 0
+}

@@ -1,0 +1,57 @@
+{
+  "datasetId": "7a07ac",
+  "datasetName": "Eventos en unidades de Generación",
+  "queryDate": "2026-05-20",
+  "granularity": "Diaria",
+  "category": "Eventos en unidades de Generación",
+  "lastUpdate": "2026-05-21 08:30:59",
+  "columns": [
+    {
+      "nameColumn": "CapacidadEfectivaNeta",
+      "dataType": "decimal",
+      "description": "Capacidad Efectiva Neta de las plantas de generación"
+    },
+    {
+      "nameColumn": "EventoGenerador",
+      "dataType": "texto",
+      "description": "NULL"
+    },
+    {
+      "nameColumn": "DescripcionEvento",
+      "dataType": "texto",
+      "description": "NULL"
+    },
+    {
+      "nameColumn": "TipoCombustible",
+      "dataType": "texto",
+      "description": "Tipo Combustible"
+    },
+    {
+      "nameColumn": "EstadoGenerador",
+      "dataType": "texto",
+      "description": "Estado de la unidad a partir del evento registrado"
+    },
+    {
+      "nameColumn": "DisponibilidadEnergia",
+      "dataType": "decimal",
+      "description": "Disponibilidad de energía declarada por la unidad de generación"
+    },
+    {
+      "nameColumn": "CodigoUnidadGeneracion",
+      "dataType": "texto",
+      "description": "Codigo de la unidad de generacion"
+    },
+    {
+      "nameColumn": "FechaHora",
+      "dataType": "fecha hora",
+      "description": "Fecha y hora de representación del dato"
+    },
+    {
+      "nameColumn": "CodigoDuracion",
+      "dataType": "texto",
+      "description": "Código de duración de la variable en formato ISO8601"
+    }
+  ],
+  "columnCount": 9,
+  "recordCountForQueryDate": 0
+}

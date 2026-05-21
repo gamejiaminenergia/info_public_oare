@@ -1,0 +1,42 @@
+{
+  "datasetId": "64eb3f",
+  "datasetName": "Disponibilidad Real de las Unidades de Generación del Sistema",
+  "queryDate": "2026-05-20",
+  "granularity": "Diaria",
+  "category": "Disponibilidad Real de las Unidades de Generación del Sistema",
+  "lastUpdate": "2026-05-21 08:25:03",
+  "columns": [
+    {
+      "nameColumn": "PromedioDisponibilidadReal",
+      "dataType": "decimal",
+      "description": "Energía disponible promedio en los 24 periodos operativos"
+    },
+    {
+      "nameColumn": "PorcentajePromedioDisponibilidadReal",
+      "dataType": "decimal",
+      "description": "Porcentaje con respecto a su capacidad efectiva neta de la energía disponible promedio en los 24 periodos operativos"
+    },
+    {
+      "nameColumn": "CapacidadEfectivaNeta",
+      "dataType": "decimal",
+      "description": "Capacidad Efectiva Neta de las plantas de generación"
+    },
+    {
+      "nameColumn": "TipoGeneracion",
+      "dataType": "texto",
+      "description": "Tipo de clasificación del recurso de generación"
+    },
+    {
+      "nameColumn": "CodigoUnidadGeneracion",
+      "dataType": "texto",
+      "description": "Codigo de la unidad de generacion"
+    },
+    {
+      "nameColumn": "Fecha",
+      "dataType": "fecha",
+      "description": "Fecha de representación de la información"
+    }
+  ],
+  "columnCount": 6,
+  "recordCountForQueryDate": 208
+}

@@ -1,0 +1,92 @@
+{
+  "datasetId": "c10ec7",
+  "datasetName": "Cobertura de la demanda de contratos realizados fuera del SICEP",
+  "queryDate": "2026-05-20",
+  "granularity": "Mensual",
+  "category": "Cobertura de la demanda de contratos realizados fuera del SICEP",
+  "lastUpdate": "2026-05-05 13:22:46",
+  "columns": [
+    {
+      "nameColumn": "FechaPublicacionCttos",
+      "dataType": "fecha",
+      "description": "Fecha en que se realizó la publicación del dato de contratos"
+    },
+    {
+      "nameColumn": "CantContMRFueraSICEP",
+      "dataType": "decimal",
+      "description": "Cantidad de energía contratada de todos los contratos celebrados fuera del SICEP y que atienden el mercado de usuarios regulados, es decir, sin intermediación."
+    },
+    {
+      "nameColumn": "PrcjCoberturaReguladoFueraSICEP",
+      "dataType": "decimal",
+      "description": "Porcentaje de cobertura de la demanda regulada con contratos fuera del SICEP y con atención directa de la demanda (sin intermediación)"
+    },
+    {
+      "nameColumn": "DemandaUPME",
+      "dataType": "decimal",
+      "description": "Demanda proyectada y publicada por la UPME"
+    },
+    {
+      "nameColumn": "FechaPublicacionUPME",
+      "dataType": "fecha",
+      "description": "Indica la fecha en que la UPME hizo la publicación del dato de la demanda"
+    },
+    {
+      "nameColumn": "DemandaUPMENR",
+      "dataType": "decimal",
+      "description": "Demanda proyectada No Regulada partiendo de la demanda total de la UPME y la participación porcentual del mercado No Regulado en la última facturación disponible del ASIC"
+    },
+    {
+      "nameColumn": "PrcjDemNoRegulada",
+      "dataType": "decimal",
+      "description": "Proporción de la demanda no regulada respecto a la demanda total en la última facturación disponible"
+    },
+    {
+      "nameColumn": "DemandaUPMEReg",
+      "dataType": "decimal",
+      "description": "Demanda proyectada Regulada partiendo de la demanda total de la UPME y la participación porcentual del mercado Regulado en la última facturación disponible del ASIC"
+    },
+    {
+      "nameColumn": "PrcjDemRegulada",
+      "dataType": "decimal",
+      "description": "Proporción de la demanda regulada respecto a la demanda total en la última facturación disponible"
+    },
+    {
+      "nameColumn": "FechaPrcjDem",
+      "dataType": "fecha",
+      "description": "Mes de la facturación con que se calcula el porcentaje de la demanda regulada y no regulada de la UPME"
+    },
+    {
+      "nameColumn": "PrcjCoberturaNoReguladoFueraSICEP",
+      "dataType": "decimal",
+      "description": "Porcentaje de cobertura de la demanda no regulada con contratos fuera del SICEP y con atención directa de la demanda (sin intermediación)"
+    },
+    {
+      "nameColumn": "FechaProyectada",
+      "dataType": "fecha",
+      "description": "Fecha proyectada en que aplica el dato"
+    },
+    {
+      "nameColumn": "CantContNRFueraSICEP",
+      "dataType": "decimal",
+      "description": "Cantidad de energía contratada de todos los contratos celebrados fuera del SICEP y que atienden el mercado de usuarios no regulados, es decir, sin intermediación."
+    },
+    {
+      "nameColumn": "CodigoDuracion",
+      "dataType": "texto",
+      "description": "Código de duración de la variable en formato ISO8601"
+    },
+    {
+      "nameColumn": "PrcjCoberturaFueraSICEP",
+      "dataType": "decimal",
+      "description": "Porcentaje de cobertura de la demanda regulada y no regulada con contratos fuera del SICEP y con atención directa de la demanda (sin intermediación)"
+    },
+    {
+      "nameColumn": "CantContTotal",
+      "dataType": "decimal",
+      "description": "Cantidad total de energía contratada"
+    }
+  ],
+  "columnCount": 16,
+  "recordCountForQueryDate": 176
+}

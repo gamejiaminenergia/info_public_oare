@@ -1,0 +1,47 @@
+{
+  "datasetId": "71a7b9",
+  "datasetName": "Niveles Mínimos Operativos de Embalses de invierno",
+  "queryDate": "2026-05-20",
+  "granularity": "Diaria",
+  "category": "Niveles Mínimos Operativos de Embalses de invierno",
+  "lastUpdate": "2026-05-21 13:01:50",
+  "columns": [
+    {
+      "nameColumn": "CodigoVariable",
+      "dataType": "texto",
+      "description": "Código de la variable"
+    },
+    {
+      "nameColumn": "NombreEmbalse",
+      "dataType": "texto",
+      "description": "Nombre de los embalses del sistema interconectado nacional. "
+    },
+    {
+      "nameColumn": "FechaPublicacion",
+      "dataType": "fecha",
+      "description": "Fecha de publicación del dato en el SIMEM"
+    },
+    {
+      "nameColumn": "CodigoDuracion",
+      "dataType": "texto",
+      "description": "Código de duración de la variable en formato ISO8601"
+    },
+    {
+      "nameColumn": "CodigoEmbalse",
+      "dataType": "texto",
+      "description": "Código del embalse"
+    },
+    {
+      "nameColumn": "Fecha",
+      "dataType": "fecha",
+      "description": "Fecha de representación de la información"
+    },
+    {
+      "nameColumn": "MinimoOperativo",
+      "dataType": "decimal",
+      "description": "Valor de los niveles mensuales de embalses para la estación de invierno que constituyen una reserva energética para cubrir condiciones predeterminadas de confiabilidad expresado en GWh"
+    }
+  ],
+  "columnCount": 7,
+  "recordCountForQueryDate": 54
+}

@@ -1,0 +1,42 @@
+{
+  "datasetId": "34FFDA",
+  "datasetName": "Aportes Hídricos en Porcentaje",
+  "queryDate": "2026-05-20",
+  "granularity": "Diaria",
+  "category": "Aportes Hídricos en Porcentaje",
+  "lastUpdate": "2026-05-21 08:25:40",
+  "columns": [
+    {
+      "nameColumn": "FechaPublicacion",
+      "dataType": "fecha",
+      "description": "Fecha de publicación del dato en el SIMEM"
+    },
+    {
+      "nameColumn": "RegionHidrologica",
+      "dataType": "texto",
+      "description": "Zona geográfica en la cual se agrupan elementos con características hidrológicas similares."
+    },
+    {
+      "nameColumn": "CodigoSerieHidrologica",
+      "dataType": "texto",
+      "description": "Código único para identificar una serie hidrologica o un río del Sistema Interconectado Nacional"
+    },
+    {
+      "nameColumn": "AportesHidricosPorcentaje",
+      "dataType": "decimal",
+      "description": "Aporte hídrico, asociado con un recurso de generación despachado centralmente, estimado con respecto a la media histórica."
+    },
+    {
+      "nameColumn": "Fecha",
+      "dataType": "fecha",
+      "description": "Fecha de representación de la información"
+    },
+    {
+      "nameColumn": "PromedioAcumuladoPorcentaje",
+      "dataType": "decimal",
+      "description": "Aporte hídrico, asociado con un recurso de generación despachado centralmente, estimado con respecto a la media histórica."
+    }
+  ],
+  "columnCount": 6,
+  "recordCountForQueryDate": 44
+}

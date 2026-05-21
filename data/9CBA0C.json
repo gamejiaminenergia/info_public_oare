@@ -1,0 +1,47 @@
+{
+  "datasetId": "9CBA0C",
+  "datasetName": "Disponibilidad horaria declarada total que respalda las OEF",
+  "queryDate": "2026-05-20",
+  "granularity": "Diaria",
+  "category": "Disponibilidad horaria declarada total que respalda las OEF",
+  "lastUpdate": "2026-05-21 04:27:07",
+  "columns": [
+    {
+      "nameColumn": "CodigoVariable",
+      "dataType": "texto",
+      "description": "Código de la variable"
+    },
+    {
+      "nameColumn": "Valor",
+      "dataType": "decimal",
+      "description": "Valor de la variable (escala de 4 cifras)"
+    },
+    {
+      "nameColumn": "CodigoPlanta",
+      "dataType": "texto",
+      "description": "Código de la planta"
+    },
+    {
+      "nameColumn": "UnidadMedida",
+      "dataType": "texto",
+      "description": "Unidad de medida en la que se encuentra la variable"
+    },
+    {
+      "nameColumn": "Version",
+      "dataType": "texto",
+      "description": "Versión de la liquidación"
+    },
+    {
+      "nameColumn": "FechaHora",
+      "dataType": "fecha hora",
+      "description": "Fecha y hora de representación del dato"
+    },
+    {
+      "nameColumn": "CodigoDuracion",
+      "dataType": "texto",
+      "description": "Código de duración de la variable en formato ISO8601"
+    }
+  ],
+  "columnCount": 7,
+  "recordCountForQueryDate": 0
+}

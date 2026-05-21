@@ -1,0 +1,67 @@
+{
+  "datasetId": "b94b3c",
+  "datasetName": "Limitación de suministro en bolsa según la Res. CREG 001 de 2003",
+  "queryDate": "2026-05-20",
+  "granularity": "Diaria",
+  "category": "Limitación de suministro en bolsa según la Res. CREG 001 de 2003",
+  "lastUpdate": "2026-05-21 07:18:58",
+  "columns": [
+    {
+      "nameColumn": "FechaCancelacion",
+      "dataType": "fecha",
+      "description": "Fecha de pago de la responsabilidad por la que se da inicio a la limitación de suministro "
+    },
+    {
+      "nameColumn": "DiasHabiles2",
+      "dataType": "fecha",
+      "description": "Plazo de 2 días hábiles"
+    },
+    {
+      "nameColumn": "InicioNoDespacho",
+      "dataType": "fecha",
+      "description": "Fecha de inicio de no despacho"
+    },
+    {
+      "nameColumn": "FechaPublicacion",
+      "dataType": "fecha",
+      "description": "Fecha de publicación del dato en el SIMEM"
+    },
+    {
+      "nameColumn": "Motivo",
+      "dataType": "texto",
+      "description": "Motivo por el cual se da inicio al proceso de limitación de suministro"
+    },
+    {
+      "nameColumn": "CodigoSICAgente",
+      "dataType": "texto",
+      "description": "Código del agente asignado por el ASIC"
+    },
+    {
+      "nameColumn": "FechaInicio",
+      "dataType": "fecha",
+      "description": "Fecha de inicio del dato"
+    },
+    {
+      "nameColumn": "CodigoDuracion",
+      "dataType": "texto",
+      "description": "Código de duración de la variable en formato ISO8601"
+    },
+    {
+      "nameColumn": "Estado",
+      "dataType": "texto",
+      "description": "Estado del proceso de limitación de suministro"
+    },
+    {
+      "nameColumn": "DiasHabiles5",
+      "dataType": "fecha",
+      "description": "Plazo de 5 días hábiles"
+    },
+    {
+      "nameColumn": "ActividadAgente",
+      "dataType": "texto",
+      "description": "Actividad del agente"
+    }
+  ],
+  "columnCount": 11,
+  "recordCountForQueryDate": 0
+}

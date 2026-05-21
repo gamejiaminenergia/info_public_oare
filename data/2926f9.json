@@ -1,0 +1,42 @@
+{
+  "datasetId": "2926f9",
+  "datasetName": "Cargos por uso únicos por nivel de tensión (DtUN)",
+  "queryDate": "2026-05-20",
+  "granularity": "Mensual",
+  "category": "Cargos por uso únicos por nivel de tensión (DtUN)",
+  "lastUpdate": "2026-05-16 12:13:52",
+  "columns": [
+    {
+      "nameColumn": "CodigoVariable",
+      "dataType": "texto",
+      "description": "Código de la variable"
+    },
+    {
+      "nameColumn": "NivelTension",
+      "dataType": "texto",
+      "description": "Nivel de Tensión"
+    },
+    {
+      "nameColumn": "Valor",
+      "dataType": "decimal",
+      "description": "Valor de la variable (escala de 4 cifras)"
+    },
+    {
+      "nameColumn": "VersionLAC",
+      "dataType": "texto",
+      "description": "Version de la liquidación para el proceso LAC"
+    },
+    {
+      "nameColumn": "AreaADD",
+      "dataType": "texto",
+      "description": "Áreas de Distribución de Energía Eléctrica"
+    },
+    {
+      "nameColumn": "Fecha",
+      "dataType": "fecha",
+      "description": "Fecha de representación de la información"
+    }
+  ],
+  "columnCount": 6,
+  "recordCountForQueryDate": 0
+}

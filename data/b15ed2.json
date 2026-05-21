@@ -1,0 +1,47 @@
+{
+  "datasetId": "b15ed2",
+  "datasetName": "Costo unitario promedio diario de reconciliación positiva",
+  "queryDate": "2026-05-20",
+  "granularity": "Diaria",
+  "category": "Costo unitario promedio diario de reconciliación positiva",
+  "lastUpdate": "2026-05-12 14:14:56",
+  "columns": [
+    {
+      "nameColumn": "CodigoPlanta",
+      "dataType": "texto",
+      "description": "Código de la planta"
+    },
+    {
+      "nameColumn": "CodigoSICAgente",
+      "dataType": "texto",
+      "description": "Código del agente asignado por el ASIC"
+    },
+    {
+      "nameColumn": "CodigoSubAreaOperativa",
+      "dataType": "texto",
+      "description": "Código de la subárea asociada al activo"
+    },
+    {
+      "nameColumn": "CostoReconciliacionPositiva",
+      "dataType": "decimal",
+      "description": "Costo de reconciliación positiva promedio diario para la planta"
+    },
+    {
+      "nameColumn": "Version",
+      "dataType": "texto",
+      "description": "Versión de la liquidación"
+    },
+    {
+      "nameColumn": "CodigoDuracion",
+      "dataType": "texto",
+      "description": "Código de duración de la variable en formato ISO8601"
+    },
+    {
+      "nameColumn": "Fecha",
+      "dataType": "fecha",
+      "description": "Fecha de representación de la información"
+    }
+  ],
+  "columnCount": 7,
+  "recordCountForQueryDate": 0
+}

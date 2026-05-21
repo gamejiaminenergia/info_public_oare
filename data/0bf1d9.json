@@ -1,0 +1,67 @@
+{
+  "datasetId": "0bf1d9",
+  "datasetName": "Consumo de Combustible Energético Largo Plazo",
+  "queryDate": "2026-05-20",
+  "granularity": "Mensual",
+  "category": "Consumo de Combustible Energético Largo Plazo",
+  "lastUpdate": "2026-05-15 18:21:27",
+  "columns": [
+    {
+      "nameColumn": "FechaFin",
+      "dataType": "fecha",
+      "description": "Fecha final de vigencia del dato"
+    },
+    {
+      "nameColumn": "ConsumoCombustible",
+      "dataType": "flotante",
+      "description": "Consumo de combustible en MBTU/día"
+    },
+    {
+      "nameColumn": "Etapa",
+      "dataType": "entero",
+      "description": "Resolución o paso temporal del horizonte de estudio"
+    },
+    {
+      "nameColumn": "FechaPublicacion",
+      "dataType": "fecha",
+      "description": "Fecha de publicación del dato en el SIMEM"
+    },
+    {
+      "nameColumn": "TipoEnergetico",
+      "dataType": "texto",
+      "description": "Fuente primaria de energía"
+    },
+    {
+      "nameColumn": "NombreCaso",
+      "dataType": "texto",
+      "description": "Nemotécnico utilizado para identificar el caso de estudio"
+    },
+    {
+      "nameColumn": "MesEstudio",
+      "dataType": "entero",
+      "description": "Mes desde donde se toman las condiciones iniciales para el estudio de planeamiento energético"
+    },
+    {
+      "nameColumn": "CodigoAreaOperativa",
+      "dataType": "texto",
+      "description": "Código del área operativa eléctrica"
+    },
+    {
+      "nameColumn": "AnioEstudio",
+      "dataType": "entero",
+      "description": "Año desde donde se toman las condiciones iniciales para el estudio de planeamiento energético"
+    },
+    {
+      "nameColumn": "Caso",
+      "dataType": "texto",
+      "description": "Identificador del caso de estudio"
+    },
+    {
+      "nameColumn": "FechaInicio",
+      "dataType": "fecha",
+      "description": "Fecha de inicio del dato"
+    }
+  ],
+  "columnCount": 11,
+  "recordCountForQueryDate": 4017
+}

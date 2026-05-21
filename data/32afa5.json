@@ -1,0 +1,57 @@
+{
+  "datasetId": "32afa5",
+  "datasetName": "Datos soporte del proceso de liquidación por descripción convocatoria, Código convocatoria subasta, Fecha asignación subasta, versión y mensual",
+  "queryDate": "2026-05-20",
+  "granularity": "Mensual",
+  "category": "Datos soporte del proceso de liquidación por descripción convocatoria, Código convocatoria subasta, Fecha asignación subasta, versión y mensual",
+  "lastUpdate": "2025-10-25 11:43:14",
+  "columns": [
+    {
+      "nameColumn": "CodigoVariable",
+      "dataType": "texto",
+      "description": "Código de la variable"
+    },
+    {
+      "nameColumn": "DescripcionConvocatoria",
+      "dataType": "texto",
+      "description": "Descripción de la Subasta del Cargo por Confiabilidad"
+    },
+    {
+      "nameColumn": "UnidadMedida",
+      "dataType": "texto",
+      "description": "Unidad de medida en la que se encuentra la variable"
+    },
+    {
+      "nameColumn": "CodigoConvocatoriaSubastaCxC",
+      "dataType": "texto",
+      "description": "Código de la Subasta del Cargo por Confiabilidad"
+    },
+    {
+      "nameColumn": "FechaInicio",
+      "dataType": "fecha",
+      "description": "Fecha de inicio del dato"
+    },
+    {
+      "nameColumn": "Version",
+      "dataType": "texto",
+      "description": "Versión de la liquidación"
+    },
+    {
+      "nameColumn": "Periodo01",
+      "dataType": "decimal",
+      "description": "Valor en la hora 1 del día"
+    },
+    {
+      "nameColumn": "CodigoDuracion",
+      "dataType": "texto",
+      "description": "Código de duración de la variable en formato ISO8601"
+    },
+    {
+      "nameColumn": "PeriodoAsignacion",
+      "dataType": "texto",
+      "description": "Fecha de asignación de la subasta"
+    }
+  ],
+  "columnCount": 9,
+  "recordCountForQueryDate": 0
+}

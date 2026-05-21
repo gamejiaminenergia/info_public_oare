@@ -1,0 +1,67 @@
+{
+  "datasetId": "2cf281",
+  "datasetName": "Evolución histórica anual de las estadísticas generales de las convocatorias SICEP con destino al mercado regulado",
+  "queryDate": "2026-05-20",
+  "granularity": "Anual",
+  "category": "Evolución histórica anual de las estadísticas generales de las convocatorias SICEP con destino al mercado regulado",
+  "lastUpdate": "2026-01-06 11:34:15",
+  "columns": [
+    {
+      "nameColumn": "OfertasAdjudicadas",
+      "dataType": "entero",
+      "description": "Cantidad de ofertas adjudicadas"
+    },
+    {
+      "nameColumn": "CerradasAdjudicadas",
+      "dataType": "entero",
+      "description": "Cantidad de convocatorias cerradas y adjudicadas"
+    },
+    {
+      "nameColumn": "OfertasRecibidas",
+      "dataType": "entero",
+      "description": "Cantidad de ofertas recibidas"
+    },
+    {
+      "nameColumn": "EnergiaDemandadaGWh",
+      "dataType": "decimal",
+      "description": "Energía total demandada en GWh"
+    },
+    {
+      "nameColumn": "OfertasRechazadas",
+      "dataType": "entero",
+      "description": "Cantidad de ofertas rechazadas"
+    },
+    {
+      "nameColumn": "CodigoDuracion",
+      "dataType": "texto",
+      "description": "Código de duración de la variable en formato ISO8601"
+    },
+    {
+      "nameColumn": "EnergiaAdjudicada",
+      "dataType": "decimal",
+      "description": "Energía total adjudicada en GWh"
+    },
+    {
+      "nameColumn": "CerradasDesiertas",
+      "dataType": "entero",
+      "description": "Cantidad de convocatorias cerradas y desiertas"
+    },
+    {
+      "nameColumn": "Anio",
+      "dataType": "texto",
+      "description": "Año de las convocatorias"
+    },
+    {
+      "nameColumn": "PorcentajeAdjudicacion",
+      "dataType": "decimal",
+      "description": "Porcentaje de adjudicación de las convocatorias"
+    },
+    {
+      "nameColumn": "OfertasEvaluadas",
+      "dataType": "entero",
+      "description": "Cantidad de ofertas evaluadas"
+    }
+  ],
+  "columnCount": 11,
+  "recordCountForQueryDate": 0
+}

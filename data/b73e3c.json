@@ -1,0 +1,52 @@
+{
+  "datasetId": "b73e3c",
+  "datasetName": "Energía promedio mensual de contratos con UNR por mercado de comercialización",
+  "queryDate": "2026-05-20",
+  "granularity": "Mensual",
+  "category": "Energía promedio mensual de contratos con UNR por mercado de comercialización",
+  "lastUpdate": "2026-05-20 03:36:09",
+  "columns": [
+    {
+      "nameColumn": "NivelTension",
+      "dataType": "texto",
+      "description": "Nivel de Tensión"
+    },
+    {
+      "nameColumn": "MercadoComercializacion",
+      "dataType": "texto",
+      "description": "Mercado de comercialización operativo"
+    },
+    {
+      "nameColumn": "CantContPromedio",
+      "dataType": "decimal",
+      "description": "Cantidad de energía promedio contratada"
+    },
+    {
+      "nameColumn": "Modalidad",
+      "dataType": "texto",
+      "description": "Indica si es Pague lo Contratado PC o Pague lo Demandado PD"
+    },
+    {
+      "nameColumn": "TotalFronteras",
+      "dataType": "entero",
+      "description": "Número total de fronteras"
+    },
+    {
+      "nameColumn": "CodigoDuracion",
+      "dataType": "texto",
+      "description": "Código de duración de la variable en formato ISO8601"
+    },
+    {
+      "nameColumn": "Fecha",
+      "dataType": "fecha",
+      "description": "Fecha de representación de la información"
+    },
+    {
+      "nameColumn": "CantContTotal",
+      "dataType": "decimal",
+      "description": "Cantidad total de energía contratada"
+    }
+  ],
+  "columnCount": 8,
+  "recordCountForQueryDate": 116
+}

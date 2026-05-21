@@ -1,0 +1,27 @@
+{
+  "datasetId": "10F2C9",
+  "datasetName": "Listado de Subáreas Operativas del Sistema de Interconectado Nacional",
+  "queryDate": "2026-05-20",
+  "granularity": "Diaria",
+  "category": "Listado de Subáreas Operativas del Sistema de Interconectado Nacional",
+  "lastUpdate": "2026-05-21 07:17:32",
+  "columns": [
+    {
+      "nameColumn": "NombreSubareaOperativa",
+      "dataType": "texto",
+      "description": "Nombre de la subárea operativa ante el CND"
+    },
+    {
+      "nameColumn": "CodigoSubAreaOperativa",
+      "dataType": "texto",
+      "description": "Código de la subárea asociada al activo"
+    },
+    {
+      "nameColumn": "Fecha",
+      "dataType": "fecha",
+      "description": "Fecha de representación de la información"
+    }
+  ],
+  "columnCount": 3,
+  "recordCountForQueryDate": 23
+}

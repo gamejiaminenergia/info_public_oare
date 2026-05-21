@@ -1,0 +1,57 @@
+{
+  "datasetId": "c1b851",
+  "datasetName": "Datos soporte del proceso de Demandas por Código sic agente, Mercado comercialización, Sistema transmisión, versión y horaria",
+  "queryDate": "2026-05-20",
+  "granularity": "Horaria",
+  "category": "Datos soporte del proceso de Demandas por Código sic agente, Mercado comercialización, Sistema transmisión, versión y horaria",
+  "lastUpdate": "2026-05-16 04:43:09",
+  "columns": [
+    {
+      "nameColumn": "CodigoVariable",
+      "dataType": "texto",
+      "description": "Código de la variable"
+    },
+    {
+      "nameColumn": "Valor",
+      "dataType": "decimal",
+      "description": "Valor de la variable (escala de 4 cifras)"
+    },
+    {
+      "nameColumn": "MercadoComercializacion",
+      "dataType": "texto",
+      "description": "Mercado de comercialización operativo"
+    },
+    {
+      "nameColumn": "UnidadMedida",
+      "dataType": "texto",
+      "description": "Unidad de medida en la que se encuentra la variable"
+    },
+    {
+      "nameColumn": "CodigoSICAgente",
+      "dataType": "texto",
+      "description": "Código del agente asignado por el ASIC"
+    },
+    {
+      "nameColumn": "SistemaTransmision",
+      "dataType": "texto",
+      "description": "Sistema de transmisión"
+    },
+    {
+      "nameColumn": "Version",
+      "dataType": "texto",
+      "description": "Versión de la liquidación"
+    },
+    {
+      "nameColumn": "FechaHora",
+      "dataType": "fecha hora",
+      "description": "Fecha y hora de representación del dato"
+    },
+    {
+      "nameColumn": "CodigoDuracion",
+      "dataType": "texto",
+      "description": "Código de duración de la variable en formato ISO8601"
+    }
+  ],
+  "columnCount": 9,
+  "recordCountForQueryDate": 0
+}

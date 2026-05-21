@@ -1,0 +1,38 @@
+{
+  "datasetId": "13FC3A",
+  "datasetName": "Calculo Frecuencia Interrupción Servidores",
+  "queryDate": "2026-05-20",
+  "granularity": "Mensual",
+  "category": "Calculo Frecuencia Interrupción Servidores",
+  "lastUpdate": "2026-05-02 15:18:28",
+  "columns": [
+    {
+      "nameColumn": "FechaFin",
+      "dataType": "fecha",
+      "description": "Fecha final de vigencia del dato"
+    },
+    {
+      "nameColumn": "duracionMaxima",
+      "dataType": "double"
+    },
+    {
+      "nameColumn": "frecuencia",
+      "dataType": "double"
+    },
+    {
+      "nameColumn": "FechaInicio",
+      "dataType": "fecha",
+      "description": "Fecha de inicio del dato"
+    },
+    {
+      "nameColumn": "proyecto",
+      "dataType": "texto"
+    },
+    {
+      "nameColumn": "duracionPromedio",
+      "dataType": "double"
+    }
+  ],
+  "columnCount": 6,
+  "recordCountForQueryDate": 0
+}

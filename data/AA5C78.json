@@ -1,0 +1,42 @@
+{
+  "datasetId": "AA5C78",
+  "datasetName": "Deprecated -- Panorama energético Corto Plazo Supuestos y Resultados",
+  "queryDate": "2026-05-20",
+  "granularity": "Semanal",
+  "category": "Deprecated -- Panorama energético Corto Plazo Supuestos y Resultados",
+  "lastUpdate": "2026-04-22 16:05:26",
+  "columns": [
+    {
+      "nameColumn": "FechaFin",
+      "dataType": "fecha",
+      "description": "Fecha final de vigencia del dato"
+    },
+    {
+      "nameColumn": "NombreSupuestoResultado",
+      "dataType": "texto",
+      "description": "Nombre del supuesto o resultado correspondiente"
+    },
+    {
+      "nameColumn": "FechaPublicacion",
+      "dataType": "fecha",
+      "description": "Fecha de publicación del dato en el SIMEM"
+    },
+    {
+      "nameColumn": "Caso",
+      "dataType": "texto",
+      "description": "Identificador del caso de estudio"
+    },
+    {
+      "nameColumn": "FechaInicio",
+      "dataType": "fecha",
+      "description": "Fecha de inicio del dato"
+    },
+    {
+      "nameColumn": "ValorSupuestoResultado",
+      "dataType": "decimal",
+      "description": "Valor del supuesto o resultado correspondiente"
+    }
+  ],
+  "columnCount": 6,
+  "recordCountForQueryDate": 0
+}

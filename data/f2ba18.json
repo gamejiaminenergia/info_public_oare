@@ -1,0 +1,27 @@
+{
+  "datasetId": "f2ba18",
+  "datasetName": "Costo Marginal Promedio del Redespacho del Informe Diario de Operación",
+  "queryDate": "2026-05-20",
+  "granularity": "Diaria",
+  "category": "Costo Marginal Promedio del Redespacho del Informe Diario de Operación",
+  "lastUpdate": "2026-05-21 07:24:29",
+  "columns": [
+    {
+      "nameColumn": "TipoCosto",
+      "dataType": "texto",
+      "description": "Tipo de costo"
+    },
+    {
+      "nameColumn": "Fecha",
+      "dataType": "fecha",
+      "description": "Fecha de representación de la información"
+    },
+    {
+      "nameColumn": "CostoMarginalPromedioRedespacho",
+      "dataType": "decimal",
+      "description": "Costo marginal del Sistema Interconectado Nacional que se obtiene al programar el Despacho Económico"
+    }
+  ],
+  "columnCount": 3,
+  "recordCountForQueryDate": 1
+}

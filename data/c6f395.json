@@ -1,0 +1,72 @@
+{
+  "datasetId": "c6f395",
+  "datasetName": "Procedimiento de retiro de agentes según la Res. CREG 156 de 2011",
+  "queryDate": "2026-05-20",
+  "granularity": "Semanal",
+  "category": "Procedimiento de retiro de agentes según la Res. CREG 156 de 2011",
+  "lastUpdate": "2026-05-21 07:18:58",
+  "columns": [
+    {
+      "nameColumn": "FechaCancelacion",
+      "dataType": "fecha",
+      "description": "Fecha de pago de la responsabilidad por la que se da inicio a la limitación de suministro "
+    },
+    {
+      "nameColumn": "FechaPublicacion",
+      "dataType": "fecha",
+      "description": "Fecha de publicación del dato en el SIMEM"
+    },
+    {
+      "nameColumn": "FechaInicioProcedimientoRetiro",
+      "dataType": "fecha",
+      "description": "Fecha de inicio del procedimiento de retiro"
+    },
+    {
+      "nameColumn": "Motivo",
+      "dataType": "texto",
+      "description": "Motivo por el cual se da inicio al proceso de limitación de suministro"
+    },
+    {
+      "nameColumn": "CodigoSICAgente",
+      "dataType": "texto",
+      "description": "Código del agente asignado por el ASIC"
+    },
+    {
+      "nameColumn": "FechaCambioComercializadorVoluntario",
+      "dataType": "fecha",
+      "description": "Fecha de cambio de comercializador voluntario"
+    },
+    {
+      "nameColumn": "FechaInicio",
+      "dataType": "fecha",
+      "description": "Fecha de inicio del dato"
+    },
+    {
+      "nameColumn": "CodigoDuracion",
+      "dataType": "texto",
+      "description": "Código de duración de la variable en formato ISO8601"
+    },
+    {
+      "nameColumn": "Estado",
+      "dataType": "texto",
+      "description": "Estado del proceso de limitación de suministro"
+    },
+    {
+      "nameColumn": "ActividadAgente",
+      "dataType": "texto",
+      "description": "Actividad del agente"
+    },
+    {
+      "nameColumn": "DiasHabiles30",
+      "dataType": "fecha",
+      "description": "Plazo de 30 días hábiles"
+    },
+    {
+      "nameColumn": "FechaRetiroMercado",
+      "dataType": "fecha",
+      "description": "Fecha del retiro de mercado"
+    }
+  ],
+  "columnCount": 12,
+  "recordCountForQueryDate": 3
+}

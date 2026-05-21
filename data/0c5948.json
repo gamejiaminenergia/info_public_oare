@@ -1,0 +1,87 @@
+{
+  "datasetId": "0c5948",
+  "datasetName": "Precios y estadísticas de los contratos de convocatorias del SICEP entre agentes integrados verticalmente para el mercado regulado",
+  "queryDate": "2026-05-20",
+  "granularity": "Mensual",
+  "category": "Precios y estadísticas de los contratos de convocatorias del SICEP entre agentes integrados verticalmente para el mercado regulado",
+  "lastUpdate": "2026-05-11 07:28:16",
+  "columns": [
+    {
+      "nameColumn": "TotalContratos",
+      "dataType": "entero",
+      "description": "Número total de contratos. Tamaño de la muestra"
+    },
+    {
+      "nameColumn": "PPS",
+      "dataType": "decimal",
+      "description": "Precio Promedio Simple"
+    },
+    {
+      "nameColumn": "PrecioMaximo",
+      "dataType": "decimal",
+      "description": "Precio máximo (COP/kWh)"
+    },
+    {
+      "nameColumn": "LimiteInferiorIC95Simple",
+      "dataType": "decimal",
+      "description": "Límite inferior del intervalo de confianza al 95% para el Promedio Simple"
+    },
+    {
+      "nameColumn": "Percentil95",
+      "dataType": "decimal",
+      "description": "Percentil 95 de la distribución de los datos"
+    },
+    {
+      "nameColumn": "LimiteInferiorIC95Ponderado",
+      "dataType": "decimal",
+      "description": "Límite inferior del intervalo de confianza al 95% para el Promedio Ponderado"
+    },
+    {
+      "nameColumn": "PrecioMinimo",
+      "dataType": "decimal",
+      "description": "Precio mínimo (COP/kWh)"
+    },
+    {
+      "nameColumn": "Mediana",
+      "dataType": "decimal",
+      "description": "Mediana de los datos"
+    },
+    {
+      "nameColumn": "PPP",
+      "dataType": "decimal",
+      "description": "Precio Promedio Ponderado por la variable indicada en la descripción del conjunto de datos"
+    },
+    {
+      "nameColumn": "Version",
+      "dataType": "texto",
+      "description": "Versión de la liquidación"
+    },
+    {
+      "nameColumn": "Percentil5",
+      "dataType": "decimal",
+      "description": "Percentil 5 de la distribución de los datos"
+    },
+    {
+      "nameColumn": "CodigoDuracion",
+      "dataType": "texto",
+      "description": "Código de duración de la variable en formato ISO8601"
+    },
+    {
+      "nameColumn": "LimiteSuperiorIC95Simple",
+      "dataType": "decimal",
+      "description": "Límite superior del intervalo de confianza al 95% para el Promedio Simple"
+    },
+    {
+      "nameColumn": "LimiteSuperiorIC95Ponderado",
+      "dataType": "decimal",
+      "description": "Límite superior del intervalo de confianza al 95% para el Promedio Ponderado"
+    },
+    {
+      "nameColumn": "Fecha",
+      "dataType": "fecha",
+      "description": "Fecha de representación de la información"
+    }
+  ],
+  "columnCount": 15,
+  "recordCountForQueryDate": 0
+}

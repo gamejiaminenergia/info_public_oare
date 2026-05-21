@@ -1,0 +1,72 @@
+{
+  "datasetId": "8750f9",
+  "datasetName": "Generación Energético Largo Plazo",
+  "queryDate": "2026-05-20",
+  "granularity": "Mensual",
+  "category": "Generación Energético Largo Plazo",
+  "lastUpdate": "2026-05-15 18:20:34",
+  "columns": [
+    {
+      "nameColumn": "FechaFin",
+      "dataType": "fecha",
+      "description": "Fecha final de vigencia del dato"
+    },
+    {
+      "nameColumn": "Etapa",
+      "dataType": "entero",
+      "description": "Resolución o paso temporal del horizonte de estudio"
+    },
+    {
+      "nameColumn": "FechaPublicacion",
+      "dataType": "fecha",
+      "description": "Fecha de publicación del dato en el SIMEM"
+    },
+    {
+      "nameColumn": "TipoEnergetico",
+      "dataType": "texto",
+      "description": "Fuente primaria de energía"
+    },
+    {
+      "nameColumn": "NombreCaso",
+      "dataType": "texto",
+      "description": "Nemotécnico utilizado para identificar el caso de estudio"
+    },
+    {
+      "nameColumn": "MesEstudio",
+      "dataType": "entero",
+      "description": "Mes desde donde se toman las condiciones iniciales para el estudio de planeamiento energético"
+    },
+    {
+      "nameColumn": "CodigoAreaOperativa",
+      "dataType": "texto",
+      "description": "Código del área operativa eléctrica"
+    },
+    {
+      "nameColumn": "AnioEstudio",
+      "dataType": "entero",
+      "description": "Año desde donde se toman las condiciones iniciales para el estudio de planeamiento energético"
+    },
+    {
+      "nameColumn": "Caso",
+      "dataType": "texto",
+      "description": "Identificador del caso de estudio"
+    },
+    {
+      "nameColumn": "TipoGeneracion",
+      "dataType": "texto",
+      "description": "Tipo de clasificación del recurso de generación"
+    },
+    {
+      "nameColumn": "FechaInicio",
+      "dataType": "fecha",
+      "description": "Fecha de inicio del dato"
+    },
+    {
+      "nameColumn": "GeneracionProyectada",
+      "dataType": "flotante",
+      "description": "Generación diaria promedio proyectada"
+    }
+  ],
+  "columnCount": 12,
+  "recordCountForQueryDate": 9081
+}

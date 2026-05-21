@@ -1,0 +1,62 @@
+{
+  "datasetId": "75f675",
+  "datasetName": "Aportes Energético Largo Plazo",
+  "queryDate": "2026-05-20",
+  "granularity": "Mensual",
+  "category": "Aportes Energético Largo Plazo",
+  "lastUpdate": "2026-05-15 18:19:28",
+  "columns": [
+    {
+      "nameColumn": "FechaFin",
+      "dataType": "fecha",
+      "description": "Fecha final de vigencia del dato"
+    },
+    {
+      "nameColumn": "Etapa",
+      "dataType": "entero",
+      "description": "Resolución o paso temporal del horizonte de estudio"
+    },
+    {
+      "nameColumn": "FechaPublicacion",
+      "dataType": "fecha",
+      "description": "Fecha de publicación del dato en el SIMEM"
+    },
+    {
+      "nameColumn": "NombreCaso",
+      "dataType": "texto",
+      "description": "Nemotécnico utilizado para identificar el caso de estudio"
+    },
+    {
+      "nameColumn": "MesEstudio",
+      "dataType": "entero",
+      "description": "Mes desde donde se toman las condiciones iniciales para el estudio de planeamiento energético"
+    },
+    {
+      "nameColumn": "CodigoAreaOperativa",
+      "dataType": "texto",
+      "description": "Código del área operativa eléctrica"
+    },
+    {
+      "nameColumn": "AportesProyectados",
+      "dataType": "flotante",
+      "description": "Valor"
+    },
+    {
+      "nameColumn": "AnioEstudio",
+      "dataType": "entero",
+      "description": "Año desde donde se toman las condiciones iniciales para el estudio de planeamiento energético"
+    },
+    {
+      "nameColumn": "Caso",
+      "dataType": "texto",
+      "description": "Identificador del caso de estudio"
+    },
+    {
+      "nameColumn": "FechaInicio",
+      "dataType": "fecha",
+      "description": "Fecha de inicio del dato"
+    }
+  ],
+  "columnCount": 10,
+  "recordCountForQueryDate": 1368
+}

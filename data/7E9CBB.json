@@ -1,0 +1,47 @@
+{
+  "datasetId": "7E9CBB",
+  "datasetName": "Capacidad de respaldo para operaciones en el Mercado Mayorista de Energía",
+  "queryDate": "2026-05-20",
+  "granularity": "Mensual",
+  "category": "Capacidad de respaldo para operaciones en el Mercado Mayorista de Energía",
+  "lastUpdate": "2026-05-01 09:15:31",
+  "columns": [
+    {
+      "nameColumn": "CROM1",
+      "dataType": "flotante",
+      "description": "Valor del CROM1 para el agente "
+    },
+    {
+      "nameColumn": "FechaPublicacion",
+      "dataType": "fecha",
+      "description": "Fecha de publicación del dato en el SIMEM"
+    },
+    {
+      "nameColumn": "CodigoSICAgente",
+      "dataType": "texto",
+      "description": "Código del agente asignado por el ASIC"
+    },
+    {
+      "nameColumn": "FechaProyectada",
+      "dataType": "fecha",
+      "description": "Fecha proyectada en que aplica el dato"
+    },
+    {
+      "nameColumn": "CROM2",
+      "dataType": "flotante",
+      "description": "Valor del CROM2 para el agente"
+    },
+    {
+      "nameColumn": "Patrimonio",
+      "dataType": "flotante",
+      "description": "Patrimonio asociado al agente"
+    },
+    {
+      "nameColumn": "CodigoDuracion",
+      "dataType": "texto",
+      "description": "Código de duración de la variable en formato ISO8601"
+    }
+  ],
+  "columnCount": 7,
+  "recordCountForQueryDate": 6864
+}

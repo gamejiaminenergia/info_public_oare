@@ -1,0 +1,32 @@
+{
+  "datasetId": "99c2e8",
+  "datasetName": "Costo del uso de los activos de transmisión",
+  "queryDate": "2026-05-20",
+  "granularity": "Mensual",
+  "category": "Costo del uso de los activos de transmisión",
+  "lastUpdate": "2026-05-12 14:52:20",
+  "columns": [
+    {
+      "nameColumn": "CodigoVariable",
+      "dataType": "texto",
+      "description": "Código de la variable"
+    },
+    {
+      "nameColumn": "Valor",
+      "dataType": "decimal",
+      "description": "Valor de la variable (escala de 4 cifras)"
+    },
+    {
+      "nameColumn": "VersionLAC",
+      "dataType": "texto",
+      "description": "Version de la liquidación para el proceso LAC"
+    },
+    {
+      "nameColumn": "Fecha",
+      "dataType": "fecha",
+      "description": "Fecha de representación de la información"
+    }
+  ],
+  "columnCount": 4,
+  "recordCountForQueryDate": 4
+}

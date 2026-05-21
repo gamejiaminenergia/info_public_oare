@@ -1,0 +1,62 @@
+{
+  "datasetId": "3b7031",
+  "datasetName": "Seguimiento a la Obligación de Energía Firme (OEF) anual",
+  "queryDate": "2026-05-20",
+  "granularity": "Diaria",
+  "category": "Seguimiento a la Obligación de Energía Firme (OEF) anual",
+  "lastUpdate": "2026-05-20 22:17:01",
+  "columns": [
+    {
+      "nameColumn": "CodigoVariable",
+      "dataType": "texto",
+      "description": "Código de la variable"
+    },
+    {
+      "nameColumn": "Valor",
+      "dataType": "decimal",
+      "description": "Valor de la variable (escala de 4 cifras)"
+    },
+    {
+      "nameColumn": "NombreCompania",
+      "dataType": "texto",
+      "description": "Nombre de la compañía representante"
+    },
+    {
+      "nameColumn": "CodigoElementoGeneracion",
+      "dataType": "texto",
+      "description": "Código del Elemento de Generación: Planta, Unidad o Proyecto"
+    },
+    {
+      "nameColumn": "Activa",
+      "dataType": "entero",
+      "description": "Registro activo (1) o no activo (0)"
+    },
+    {
+      "nameColumn": "FechaFinCargo",
+      "dataType": "fecha",
+      "description": "Fecha en que finaliza la vigencia del periodo cargo"
+    },
+    {
+      "nameColumn": "FechaInicioCargo",
+      "dataType": "fecha",
+      "description": "Fecha en que inicia la vigencia del periodo cargo"
+    },
+    {
+      "nameColumn": "CodigoConvocatoriaSubastaCxC",
+      "dataType": "texto",
+      "description": "Código de la Subasta del Cargo por Confiabilidad"
+    },
+    {
+      "nameColumn": "TipoElemento",
+      "dataType": "texto",
+      "description": "Tipo de elemento de generación (planta, cadena, proyecto)"
+    },
+    {
+      "nameColumn": "Fecha",
+      "dataType": "fecha",
+      "description": "Fecha de representación de la información"
+    }
+  ],
+  "columnCount": 10,
+  "recordCountForQueryDate": 0
+}

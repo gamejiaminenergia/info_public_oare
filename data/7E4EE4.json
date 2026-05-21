@@ -1,0 +1,47 @@
+{
+  "datasetId": "7E4EE4",
+  "datasetName": "Estadísticas de monto de indisponibilidad de las líneas de transmisión nacional y regional del SIN",
+  "queryDate": "2026-05-20",
+  "granularity": "Mensual",
+  "category": "Estadísticas de monto de indisponibilidad de las líneas de transmisión nacional y regional del SIN",
+  "lastUpdate": "2026-05-13 11:13:42",
+  "columns": [
+    {
+      "nameColumn": "VersionLAC",
+      "dataType": "texto",
+      "description": "Version de la liquidación para el proceso LAC"
+    },
+    {
+      "nameColumn": "CodigoSICAgente",
+      "dataType": "texto",
+      "description": "Código del agente asignado por el ASIC"
+    },
+    {
+      "nameColumn": "CodigoSubAreaOperativa",
+      "dataType": "texto",
+      "description": "Código de la subárea asociada al activo"
+    },
+    {
+      "nameColumn": "CodigoDuracion",
+      "dataType": "texto",
+      "description": "Código de duración de la variable en formato ISO8601"
+    },
+    {
+      "nameColumn": "DesvEstMensualMontoIndisponibilidad",
+      "dataType": "decimal",
+      "description": "Desviación estandar de montos de indisponibilidad de líneas"
+    },
+    {
+      "nameColumn": "PromedioSimpleEstadisticoMontoIndisponibilidad",
+      "dataType": "decimal",
+      "description": "Promedio simple de montos de indisponibilidad de líneas"
+    },
+    {
+      "nameColumn": "Fecha",
+      "dataType": "fecha",
+      "description": "Fecha de representación de la información"
+    }
+  ],
+  "columnCount": 7,
+  "recordCountForQueryDate": 0
+}

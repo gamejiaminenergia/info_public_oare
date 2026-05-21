@@ -1,0 +1,32 @@
+{
+  "datasetId": "a38a5c",
+  "datasetName": "Agentes MEM inscritos en el mecanismo Derivex",
+  "queryDate": "2026-05-20",
+  "granularity": "Mensual",
+  "category": "Agentes MEM inscritos en el mecanismo Derivex",
+  "lastUpdate": "2026-05-12 19:18:36",
+  "columns": [
+    {
+      "nameColumn": "CodigoVariable",
+      "dataType": "texto",
+      "description": "Código de la variable"
+    },
+    {
+      "nameColumn": "TipoAgente",
+      "dataType": "texto",
+      "description": "Indica si es agente generador o comercializador"
+    },
+    {
+      "nameColumn": "AgentesAsignados",
+      "dataType": "entero",
+      "description": "Cantidad de agentes asignados"
+    },
+    {
+      "nameColumn": "Fecha",
+      "dataType": "fecha",
+      "description": "Fecha de representación de la información"
+    }
+  ],
+  "columnCount": 4,
+  "recordCountForQueryDate": 0
+}

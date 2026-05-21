@@ -1,0 +1,42 @@
+{
+  "datasetId": "86d025",
+  "datasetName": "Montos de garantías para cubrir las transacciones en el mercado de energía mayorista agregados",
+  "queryDate": "2026-05-20",
+  "granularity": "Diaria",
+  "category": "Montos de garantías para cubrir las transacciones en el mercado de energía mayorista agregados",
+  "lastUpdate": "2026-05-16 12:12:28",
+  "columns": [
+    {
+      "nameColumn": "FechaFin",
+      "dataType": "fecha",
+      "description": "Fecha final de vigencia del dato"
+    },
+    {
+      "nameColumn": "GarantiaTransaccionesMEMSistema",
+      "dataType": "decimal",
+      "description": "Monto de garantía para cubrir las transacciones del mercado por Sistema"
+    },
+    {
+      "nameColumn": "EsquemaGarantia",
+      "dataType": "texto",
+      "description": "Tipo de esquema seleccionado por el agente para el cálculo de la garantía"
+    },
+    {
+      "nameColumn": "GarantiaTIESistema",
+      "dataType": "decimal",
+      "description": "Monto de garantía para cubrir las transacciones TIE por Sistema"
+    },
+    {
+      "nameColumn": "FechaInicio",
+      "dataType": "fecha",
+      "description": "Fecha de inicio del dato"
+    },
+    {
+      "nameColumn": "FechaCalculo",
+      "dataType": "fecha",
+      "description": "Fecha en la que se realizó el cálculo de la condición del sistema"
+    }
+  ],
+  "columnCount": 6,
+  "recordCountForQueryDate": 0
+}

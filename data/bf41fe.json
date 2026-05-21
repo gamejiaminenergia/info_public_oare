@@ -1,0 +1,42 @@
+{
+  "datasetId": "bf41fe",
+  "datasetName": "Histórico Posición abierta por contrato II Open interest II",
+  "queryDate": "2026-05-20",
+  "granularity": "Mensual",
+  "category": "Histórico Posición abierta por contrato II Open interest II",
+  "lastUpdate": "2026-05-12 19:21:47",
+  "columns": [
+    {
+      "nameColumn": "FechaFin",
+      "dataType": "fecha",
+      "description": "Fecha final de vigencia del dato"
+    },
+    {
+      "nameColumn": "CodigoVariable",
+      "dataType": "texto",
+      "description": "Código de la variable"
+    },
+    {
+      "nameColumn": "CodigoDerivex",
+      "dataType": "texto",
+      "description": "Son códigos alfanuméricos asignados por Derivex para identificar cada uno de los contratos futuros de energía."
+    },
+    {
+      "nameColumn": "PromedioEnergia_KWH_Mes",
+      "dataType": "flotante",
+      "description": "Promedio de energia en KwH por mes"
+    },
+    {
+      "nameColumn": "FechaInicio",
+      "dataType": "fecha",
+      "description": "Fecha de inicio del dato"
+    },
+    {
+      "nameColumn": "Fecha",
+      "dataType": "fecha",
+      "description": "Fecha de representación de la información"
+    }
+  ],
+  "columnCount": 6,
+  "recordCountForQueryDate": 0
+}

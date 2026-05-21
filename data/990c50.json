@@ -1,0 +1,32 @@
+{
+  "datasetId": "990c50",
+  "datasetName": "Disponibilidad real por unidad",
+  "queryDate": "2026-05-20",
+  "granularity": "Horaria",
+  "category": "Disponibilidad real por unidad",
+  "lastUpdate": "2026-05-21 09:16:01",
+  "columns": [
+    {
+      "nameColumn": "CodigoVariable",
+      "dataType": "texto",
+      "description": "Código de la variable"
+    },
+    {
+      "nameColumn": "Valor",
+      "dataType": "decimal",
+      "description": "Valor de la variable (escala de 4 cifras)"
+    },
+    {
+      "nameColumn": "CodigoUnidadGeneracion",
+      "dataType": "texto",
+      "description": "Codigo de la unidad de generacion"
+    },
+    {
+      "nameColumn": "FechaHora",
+      "dataType": "fecha hora",
+      "description": "Fecha y hora de representación del dato"
+    }
+  ],
+  "columnCount": 4,
+  "recordCountForQueryDate": 4992
+}

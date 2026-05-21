@@ -1,0 +1,42 @@
+{
+  "datasetId": "86d9c6",
+  "datasetName": "Variables de Ajuste por Energía Vendida Embalsada (EVE)",
+  "queryDate": "2026-05-20",
+  "granularity": "Horaria",
+  "category": "Variables de Ajuste por Energía Vendida Embalsada (EVE)",
+  "lastUpdate": "2026-05-21 04:37:15",
+  "columns": [
+    {
+      "nameColumn": "CodigoVariable",
+      "dataType": "texto",
+      "description": "Código de la variable"
+    },
+    {
+      "nameColumn": "Valor",
+      "dataType": "decimal",
+      "description": "Valor de la variable (escala de 4 cifras)"
+    },
+    {
+      "nameColumn": "UnidadMedida",
+      "dataType": "texto",
+      "description": "Unidad de medida en la que se encuentra la variable"
+    },
+    {
+      "nameColumn": "Version",
+      "dataType": "texto",
+      "description": "Versión de la liquidación"
+    },
+    {
+      "nameColumn": "FechaHora",
+      "dataType": "fecha hora",
+      "description": "Fecha y hora de representación del dato"
+    },
+    {
+      "nameColumn": "CodigoDuracion",
+      "dataType": "texto",
+      "description": "Código de duración de la variable en formato ISO8601"
+    }
+  ],
+  "columnCount": 6,
+  "recordCountForQueryDate": 0
+}

@@ -1,0 +1,37 @@
+{
+  "datasetId": "97c8ec",
+  "datasetName": "Histórico de eventos en Activos de Transmisión del Sistema de Transmisión Nacional",
+  "queryDate": "2026-05-20",
+  "granularity": "Diaria",
+  "category": "Histórico de eventos en Activos de Transmisión del Sistema de Transmisión Nacional",
+  "lastUpdate": "2026-05-20 19:26:23",
+  "columns": [
+    {
+      "nameColumn": "NombreLinea",
+      "dataType": "texto",
+      "description": "Nombre de la línea"
+    },
+    {
+      "nameColumn": "FechaHoraFin",
+      "dataType": "fecha hora",
+      "description": "Fecha final de la indisponibilidad en el activo del STN"
+    },
+    {
+      "nameColumn": "DescripcionEvento",
+      "dataType": "texto",
+      "description": "NULL"
+    },
+    {
+      "nameColumn": "FechaHoraInicio",
+      "dataType": "fecha hora",
+      "description": "Fecha inicial de la indisponibilidad en el activo del STN"
+    },
+    {
+      "nameColumn": "CausaIndisponibilidad",
+      "dataType": "texto",
+      "description": "Causa de la indisponibilidad"
+    }
+  ],
+  "columnCount": 5,
+  "recordCountForQueryDate": 0
+}

@@ -1,0 +1,57 @@
+{
+  "datasetId": "f138b6",
+  "datasetName": "Aportes Hídricos en Masa del Informe Diario",
+  "queryDate": "2026-05-20",
+  "granularity": "Diaria",
+  "category": "Aportes Hídricos en Masa del Informe Diario",
+  "lastUpdate": "2026-05-21 08:25:07",
+  "columns": [
+    {
+      "nameColumn": "PromedioAcumuladoMasa",
+      "dataType": "decimal",
+      "description": "Aportes hidricos promedio para lo que va corrido del mes."
+    },
+    {
+      "nameColumn": "FechaPublicacion",
+      "dataType": "fecha",
+      "description": "Fecha de publicación del dato en el SIMEM"
+    },
+    {
+      "nameColumn": "AportesHidricosMasaPSS95",
+      "dataType": "decimal",
+      "description": "Hidrología al 95% en metros cubicos por segundo"
+    },
+    {
+      "nameColumn": "AportesHidricosMasa",
+      "dataType": "decimal",
+      "description": "Aporte hídrico asociado con un recurso de generación despachado centralmente. "
+    },
+    {
+      "nameColumn": "RegionHidrologica",
+      "dataType": "texto",
+      "description": "Zona geográfica en la cual se agrupan elementos con características hidrológicas similares."
+    },
+    {
+      "nameColumn": "CodigoSerieHidrologica",
+      "dataType": "texto",
+      "description": "Código único para identificar una serie hidrologica o un río del Sistema Interconectado Nacional"
+    },
+    {
+      "nameColumn": "CodigoDuracion",
+      "dataType": "texto",
+      "description": "Código de duración de la variable en formato ISO8601"
+    },
+    {
+      "nameColumn": "MediaHistoricaMasa",
+      "dataType": "decimal",
+      "description": "Promedio mensual multianual de la serie hidrológica aprobada por Acuerdo CNO"
+    },
+    {
+      "nameColumn": "Fecha",
+      "dataType": "fecha",
+      "description": "Fecha de representación de la información"
+    }
+  ],
+  "columnCount": 9,
+  "recordCountForQueryDate": 43
+}

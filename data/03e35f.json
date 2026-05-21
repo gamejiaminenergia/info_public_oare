@@ -1,0 +1,27 @@
+{
+  "datasetId": "03e35f",
+  "datasetName": "Costo Marginal Redespacho",
+  "queryDate": "2026-05-20",
+  "granularity": "Horaria",
+  "category": "Costo Marginal Redespacho",
+  "lastUpdate": "2026-05-21 07:23:01",
+  "columns": [
+    {
+      "nameColumn": "CostoMarginalRedespacho",
+      "dataType": "decimal",
+      "description": "Costo marginal del redespacho"
+    },
+    {
+      "nameColumn": "FechaHora",
+      "dataType": "fecha hora",
+      "description": "Fecha y hora de representación del dato"
+    },
+    {
+      "nameColumn": "CodigoDuracion",
+      "dataType": "texto",
+      "description": "Código de duración de la variable en formato ISO8601"
+    }
+  ],
+  "columnCount": 3,
+  "recordCountForQueryDate": 24
+}

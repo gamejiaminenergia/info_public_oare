@@ -1,0 +1,32 @@
+{
+  "datasetId": "d44fe9",
+  "datasetName": "Renta de congestión con destinación al FOES",
+  "queryDate": "2026-05-20",
+  "granularity": "Horaria",
+  "category": "Renta de congestión con destinación al FOES",
+  "lastUpdate": "2026-05-20 13:14:56",
+  "columns": [
+    {
+      "nameColumn": "CodigoVariable",
+      "dataType": "texto",
+      "description": "Código de la variable"
+    },
+    {
+      "nameColumn": "Valor",
+      "dataType": "decimal",
+      "description": "Valor de la variable (escala de 4 cifras)"
+    },
+    {
+      "nameColumn": "CodigoEnlace",
+      "dataType": "texto",
+      "description": "Código del enlace internacional"
+    },
+    {
+      "nameColumn": "FechaHora",
+      "dataType": "fecha hora",
+      "description": "Fecha y hora de representación del dato"
+    }
+  ],
+  "columnCount": 4,
+  "recordCountForQueryDate": 0
+}

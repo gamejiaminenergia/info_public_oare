@@ -1,0 +1,37 @@
+{
+  "datasetId": "1445AC",
+  "datasetName": "Caudal Descargado por Tipo de Descarga",
+  "queryDate": "2026-05-20",
+  "granularity": "Diaria",
+  "category": "Caudal Descargado por Tipo de Descarga",
+  "lastUpdate": "2026-05-21 08:25:22",
+  "columns": [
+    {
+      "nameColumn": "TipoDescarga",
+      "dataType": "texto",
+      "description": "Nombre del Arco"
+    },
+    {
+      "nameColumn": "FechaPublicacion",
+      "dataType": "fecha",
+      "description": "Fecha de publicación del dato en el SIMEM"
+    },
+    {
+      "nameColumn": "Caudal",
+      "dataType": "flotante",
+      "description": "Caudal de los aportes en metros cubicos por segundo"
+    },
+    {
+      "nameColumn": "CodigoEmbalse",
+      "dataType": "texto",
+      "description": "Código del embalse"
+    },
+    {
+      "nameColumn": "Fecha",
+      "dataType": "fecha",
+      "description": "Fecha de representación de la información"
+    }
+  ],
+  "columnCount": 5,
+  "recordCountForQueryDate": 66
+}

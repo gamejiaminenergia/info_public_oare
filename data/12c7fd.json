@@ -1,0 +1,32 @@
+{
+  "datasetId": "12c7fd",
+  "datasetName": "Generación Programada Redespacho por Planta",
+  "queryDate": "2026-05-20",
+  "granularity": "Horaria",
+  "category": "Generación Programada Redespacho por Planta",
+  "lastUpdate": "2026-05-21 07:23:35",
+  "columns": [
+    {
+      "nameColumn": "GeneracionProgramadaRedespacho",
+      "dataType": "decimal",
+      "description": "Generación programada en el redespacho"
+    },
+    {
+      "nameColumn": "CodigoElementoGeneracion",
+      "dataType": "texto",
+      "description": "Código del Elemento de Generación: Planta, Unidad o Proyecto"
+    },
+    {
+      "nameColumn": "FechaHora",
+      "dataType": "fecha hora",
+      "description": "Fecha y hora de representación del dato"
+    },
+    {
+      "nameColumn": "CodigoDuracion",
+      "dataType": "texto",
+      "description": "Código de duración de la variable en formato ISO8601"
+    }
+  ],
+  "columnCount": 4,
+  "recordCountForQueryDate": 7032
+}

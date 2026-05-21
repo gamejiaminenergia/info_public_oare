@@ -1,0 +1,47 @@
+{
+  "datasetId": "1237df",
+  "datasetName": "Bandera de arranque de plantas",
+  "queryDate": "2026-05-20",
+  "granularity": "Diaria",
+  "category": "Bandera de arranque de plantas",
+  "lastUpdate": "2026-05-21 04:31:48",
+  "columns": [
+    {
+      "nameColumn": "CodigoVariable",
+      "dataType": "texto",
+      "description": "Código de la variable"
+    },
+    {
+      "nameColumn": "CodigoPlanta",
+      "dataType": "texto",
+      "description": "Código de la planta"
+    },
+    {
+      "nameColumn": "ValorTexto",
+      "dataType": "texto",
+      "description": "Valor de la variable indicada"
+    },
+    {
+      "nameColumn": "UnidadMedida",
+      "dataType": "texto",
+      "description": "Unidad de medida en la que se encuentra la variable"
+    },
+    {
+      "nameColumn": "Version",
+      "dataType": "texto",
+      "description": "Versión de la liquidación"
+    },
+    {
+      "nameColumn": "FechaHora",
+      "dataType": "fecha hora",
+      "description": "Fecha y hora de representación del dato"
+    },
+    {
+      "nameColumn": "CodigoDuracion",
+      "dataType": "texto",
+      "description": "Código de duración de la variable en formato ISO8601"
+    }
+  ],
+  "columnCount": 7,
+  "recordCountForQueryDate": 0
+}

@@ -1,0 +1,37 @@
+{
+  "datasetId": "054b23",
+  "datasetName": "Cargo de nivel de tensión 4",
+  "queryDate": "2026-05-20",
+  "granularity": "Mensual",
+  "category": "Cargo de nivel de tensión 4",
+  "lastUpdate": "2026-05-16 11:20:00",
+  "columns": [
+    {
+      "nameColumn": "CodigoVariable",
+      "dataType": "texto",
+      "description": "Código de la variable"
+    },
+    {
+      "nameColumn": "STR",
+      "dataType": "texto",
+      "description": "Sistema de Transmisión Regional"
+    },
+    {
+      "nameColumn": "Valor",
+      "dataType": "decimal",
+      "description": "Valor de la variable (escala de 4 cifras)"
+    },
+    {
+      "nameColumn": "VersionLAC",
+      "dataType": "texto",
+      "description": "Version de la liquidación para el proceso LAC"
+    },
+    {
+      "nameColumn": "Fecha",
+      "dataType": "fecha",
+      "description": "Fecha de representación de la información"
+    }
+  ],
+  "columnCount": 5,
+  "recordCountForQueryDate": 0
+}

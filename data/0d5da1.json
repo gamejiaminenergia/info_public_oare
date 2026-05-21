@@ -1,0 +1,37 @@
+{
+  "datasetId": "0d5da1",
+  "datasetName": "Costo Equivalente de Energía (CEE)",
+  "queryDate": "2026-05-20",
+  "granularity": "Mensual",
+  "category": "Costo Equivalente de Energía (CEE)",
+  "lastUpdate": "2026-05-06 15:18:14",
+  "columns": [
+    {
+      "nameColumn": "CodigoVariable",
+      "dataType": "texto",
+      "description": "Código de la variable"
+    },
+    {
+      "nameColumn": "Valor",
+      "dataType": "decimal",
+      "description": "Valor de la variable (escala de 4 cifras)"
+    },
+    {
+      "nameColumn": "UnidadMedida",
+      "dataType": "texto",
+      "description": "Unidad de medida en la que se encuentra la variable"
+    },
+    {
+      "nameColumn": "CodigoDuracion",
+      "dataType": "texto",
+      "description": "Código de duración de la variable en formato ISO8601"
+    },
+    {
+      "nameColumn": "Fecha",
+      "dataType": "fecha",
+      "description": "Fecha de representación de la información"
+    }
+  ],
+  "columnCount": 5,
+  "recordCountForQueryDate": 1
+}

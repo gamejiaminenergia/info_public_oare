@@ -1,0 +1,37 @@
+{
+  "datasetId": "054d02",
+  "datasetName": "Montos de garantías y mecanismos alternativos para cubrir las transacciones en el mercado de energía mayorista agregados",
+  "queryDate": "2026-05-20",
+  "granularity": "Mensual",
+  "category": "Montos de garantías y mecanismos alternativos para cubrir las transacciones en el mercado de energía mayorista agregados",
+  "lastUpdate": "2026-05-17 07:18:29",
+  "columns": [
+    {
+      "nameColumn": "VencimientoTransaccionesSistema",
+      "dataType": "decimal",
+      "description": "Monto total de transacciones en el mercado  en el vencimiento"
+    },
+    {
+      "nameColumn": "GarantiasDocumentalesSistema",
+      "dataType": "decimal",
+      "description": "Monto presentado mediante Garantias Bancarias"
+    },
+    {
+      "nameColumn": "CodigoDuracion",
+      "dataType": "texto",
+      "description": "Código de duración de la variable en formato ISO8601"
+    },
+    {
+      "nameColumn": "Fecha",
+      "dataType": "fecha",
+      "description": "Fecha de representación de la información"
+    },
+    {
+      "nameColumn": "PrepagosTransaccionesSistema",
+      "dataType": "decimal",
+      "description": "Monto presentado mediante Prepagos"
+    }
+  ],
+  "columnCount": 5,
+  "recordCountForQueryDate": 0
+}

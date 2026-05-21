@@ -1,0 +1,77 @@
+{
+  "datasetId": "43cd59",
+  "datasetName": "Garantía de reserva de capacidad de transporte",
+  "queryDate": "2026-05-20",
+  "granularity": "Diaria",
+  "category": "Garantía de reserva de capacidad de transporte",
+  "lastUpdate": "2026-05-15 19:07:40",
+  "columns": [
+    {
+      "nameColumn": "FechaFinalGarantia",
+      "dataType": "fecha",
+      "description": "Fecha final de la vigencia de la garantía"
+    },
+    {
+      "nameColumn": "NombreProyecto",
+      "dataType": "texto",
+      "description": "Nombre del proyecto con reserva de capacidad"
+    },
+    {
+      "nameColumn": "FechaInicialGarantia",
+      "dataType": "fecha",
+      "description": "Fecha inicial de la vigencia de la garantía"
+    },
+    {
+      "nameColumn": "FechaPresentacion",
+      "dataType": "fecha",
+      "description": "fecha de presentación de la garantia"
+    },
+    {
+      "nameColumn": "CodigoProyecto",
+      "dataType": "texto",
+      "description": "Código del proyecto de generación"
+    },
+    {
+      "nameColumn": "esMaximaVersion",
+      "dataType": "entero",
+      "description": "Última versión disponible del dato. Si es la última =1, si no =0"
+    },
+    {
+      "nameColumn": "Moneda",
+      "dataType": "texto",
+      "description": "Tipo de Moneda"
+    },
+    {
+      "nameColumn": "FechaActualizacion",
+      "dataType": "fecha",
+      "description": "Fecha de actualización de la garantía"
+    },
+    {
+      "nameColumn": "CodigoPromotor",
+      "dataType": "texto",
+      "description": "Código del promotor del proyecto"
+    },
+    {
+      "nameColumn": "FPO",
+      "dataType": "fecha",
+      "description": "Fecha de Puesta en Operación"
+    },
+    {
+      "nameColumn": "MontoGarantiaReservaCapacidad",
+      "dataType": "decimal",
+      "description": "Monto de la garantía de reserva de capacidad"
+    },
+    {
+      "nameColumn": "NombrePromotor",
+      "dataType": "texto",
+      "description": "Nombre del promotor del proyecto con reserva de capacidad"
+    },
+    {
+      "nameColumn": "CantidadTotal",
+      "dataType": "flotante",
+      "description": "NaN"
+    }
+  ],
+  "columnCount": 13,
+  "recordCountForQueryDate": 0
+}

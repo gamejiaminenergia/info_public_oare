@@ -1,0 +1,42 @@
+{
+  "datasetId": "7e704d",
+  "datasetName": "Meteorología local en Plantas Solares",
+  "queryDate": "2026-05-20",
+  "granularity": "Diaria",
+  "category": "Meteorología local en Plantas Solares",
+  "lastUpdate": "2026-05-21 07:23:05",
+  "columns": [
+    {
+      "nameColumn": "TemperaturaPanel",
+      "dataType": "flotante",
+      "description": "Temperatura sobre el panel de generación"
+    },
+    {
+      "nameColumn": "IrradiacionPanel",
+      "dataType": "flotante",
+      "description": "Irradiación solar sobre el panel de generación"
+    },
+    {
+      "nameColumn": "CodigoUnidadGeneracion",
+      "dataType": "texto",
+      "description": "Codigo de la unidad de generacion"
+    },
+    {
+      "nameColumn": "IrradiacionGlobal",
+      "dataType": "flotante",
+      "description": "Irradiación solar global"
+    },
+    {
+      "nameColumn": "TemperaturaAmbiente",
+      "dataType": "flotante",
+      "description": "Temperatura ambiente en la zona de la planta"
+    },
+    {
+      "nameColumn": "Fecha",
+      "dataType": "fecha",
+      "description": "Fecha de representación de la información"
+    }
+  ],
+  "columnCount": 6,
+  "recordCountForQueryDate": 0
+}

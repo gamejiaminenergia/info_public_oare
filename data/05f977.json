@@ -1,0 +1,52 @@
+{
+  "datasetId": "05f977",
+  "datasetName": "Precios futuros horarios mensuales de contratos con UNR por mercado de comercialización",
+  "queryDate": "2026-05-20",
+  "granularity": "Mensual",
+  "category": "Precios futuros horarios mensuales de contratos con UNR por mercado de comercialización",
+  "lastUpdate": "2026-05-20 03:21:37",
+  "columns": [
+    {
+      "nameColumn": "Hora",
+      "dataType": "entero",
+      "description": "Hora en que aplica el dato"
+    },
+    {
+      "nameColumn": "MercadoComercializacion",
+      "dataType": "texto",
+      "description": "Mercado de comercialización operativo"
+    },
+    {
+      "nameColumn": "PPS",
+      "dataType": "decimal",
+      "description": "Precio Promedio Simple"
+    },
+    {
+      "nameColumn": "FechaPublicacion",
+      "dataType": "fecha",
+      "description": "Fecha de publicación del dato en el SIMEM"
+    },
+    {
+      "nameColumn": "PPP",
+      "dataType": "decimal",
+      "description": "Precio Promedio Ponderado por la variable indicada en la descripción del conjunto de datos"
+    },
+    {
+      "nameColumn": "FechaProyectada",
+      "dataType": "fecha",
+      "description": "Fecha proyectada en que aplica el dato"
+    },
+    {
+      "nameColumn": "CodigoDuracion",
+      "dataType": "texto",
+      "description": "Código de duración de la variable en formato ISO8601"
+    },
+    {
+      "nameColumn": "Componente",
+      "dataType": "texto",
+      "description": "Componente del Costo Unitario CU. Comercialización (C), Generación (G)."
+    }
+  ],
+  "columnCount": 8,
+  "recordCountForQueryDate": 47808
+}

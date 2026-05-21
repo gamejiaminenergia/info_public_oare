@@ -1,0 +1,47 @@
+{
+  "datasetId": "06bb49",
+  "datasetName": "Energía promedio mensual de contratos con UNR para el total del SIN",
+  "queryDate": "2026-05-20",
+  "granularity": "Mensual",
+  "category": "Energía promedio mensual de contratos con UNR para el total del SIN",
+  "lastUpdate": "2026-05-20 03:17:32",
+  "columns": [
+    {
+      "nameColumn": "NivelTension",
+      "dataType": "texto",
+      "description": "Nivel de Tensión"
+    },
+    {
+      "nameColumn": "CantContPromedio",
+      "dataType": "decimal",
+      "description": "Cantidad de energía promedio contratada"
+    },
+    {
+      "nameColumn": "Modalidad",
+      "dataType": "texto",
+      "description": "Indica si es Pague lo Contratado PC o Pague lo Demandado PD"
+    },
+    {
+      "nameColumn": "TotalFronteras",
+      "dataType": "entero",
+      "description": "Número total de fronteras"
+    },
+    {
+      "nameColumn": "CodigoDuracion",
+      "dataType": "texto",
+      "description": "Código de duración de la variable en formato ISO8601"
+    },
+    {
+      "nameColumn": "Fecha",
+      "dataType": "fecha",
+      "description": "Fecha de representación de la información"
+    },
+    {
+      "nameColumn": "CantContTotal",
+      "dataType": "decimal",
+      "description": "Cantidad total de energía contratada"
+    }
+  ],
+  "columnCount": 7,
+  "recordCountForQueryDate": 9
+}

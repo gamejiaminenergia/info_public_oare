@@ -1,0 +1,52 @@
+{
+  "datasetId": "1d3ef8",
+  "datasetName": "Reservas Hidráulicas en Porcentaje del Informe Diario de Operación",
+  "queryDate": "2026-05-20",
+  "granularity": "Diaria",
+  "category": "Reservas Hidráulicas en Porcentaje del Informe Diario de Operación",
+  "lastUpdate": "2026-05-21 08:29:06",
+  "columns": [
+    {
+      "nameColumn": "VolumenPorcentaje",
+      "dataType": "decimal",
+      "description": "Es el volumen total diario en porcentaje, estimado a partir del volumen útil y el volumen total del embalse . "
+    },
+    {
+      "nameColumn": "FechaPublicacion",
+      "dataType": "fecha",
+      "description": "Fecha de publicación del dato en el SIMEM"
+    },
+    {
+      "nameColumn": "RegionHidrologica",
+      "dataType": "texto",
+      "description": "Zona geográfica en la cual se agrupan elementos con características hidrológicas similares."
+    },
+    {
+      "nameColumn": "NivelENFICCProbabilistico",
+      "dataType": "decimal",
+      "description": "Nivel ENFICC Probabilístico (NEP) según Resolución CREG 036 de 2010 y Circular 018 de 2010"
+    },
+    {
+      "nameColumn": "CodigoDuracion",
+      "dataType": "texto",
+      "description": "Código de duración de la variable en formato ISO8601"
+    },
+    {
+      "nameColumn": "CodigoEmbalse",
+      "dataType": "texto",
+      "description": "Código del embalse"
+    },
+    {
+      "nameColumn": "Fecha",
+      "dataType": "fecha",
+      "description": "Fecha de representación de la información"
+    },
+    {
+      "nameColumn": "VolumenUtilPorcentaje",
+      "dataType": "decimal",
+      "description": "Es el volumen util diario en porcentaje, estimado a partir del volumen útil y la capacidad útil del embalse . "
+    }
+  ],
+  "columnCount": 8,
+  "recordCountForQueryDate": 25
+}

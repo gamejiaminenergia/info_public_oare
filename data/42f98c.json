@@ -1,0 +1,47 @@
+{
+  "datasetId": "42f98c",
+  "datasetName": "Meteorología local en Plantas Eólicas",
+  "queryDate": "2026-05-20",
+  "granularity": "Diaria",
+  "category": "Meteorología local en Plantas Eólicas",
+  "lastUpdate": "2026-05-21 07:18:55",
+  "columns": [
+    {
+      "nameColumn": "HumedadRelativa",
+      "dataType": "flotante",
+      "description": "Humedad relativa en la zona de la planta "
+    },
+    {
+      "nameColumn": "PresionAtmosferica",
+      "dataType": "flotante",
+      "description": "Promedio diario de la serie de presión atmosférica, en unidades de hectopascales (hPa), medida para una planta eólica"
+    },
+    {
+      "nameColumn": "VelocidadViento",
+      "dataType": "flotante",
+      "description": "Promedio diario de la serie de velocidad del viento, en unidades de metros por segundo (m/s), medida para una planta eólica"
+    },
+    {
+      "nameColumn": "DireccionViento",
+      "dataType": "flotante",
+      "description": "Promedio diario de la serie de dirección del viento, en unidades de grados relativos al norte geográfico, medida para una planta eólica"
+    },
+    {
+      "nameColumn": "CodigoUnidadGeneracion",
+      "dataType": "texto",
+      "description": "Codigo de la unidad de generacion"
+    },
+    {
+      "nameColumn": "TemperaturaAmbiente",
+      "dataType": "flotante",
+      "description": "Temperatura ambiente en la zona de la planta"
+    },
+    {
+      "nameColumn": "Fecha",
+      "dataType": "fecha",
+      "description": "Fecha de representación de la información"
+    }
+  ],
+  "columnCount": 7,
+  "recordCountForQueryDate": 0
+}

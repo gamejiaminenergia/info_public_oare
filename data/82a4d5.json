@@ -1,0 +1,37 @@
+{
+  "datasetId": "82a4d5",
+  "datasetName": "Cargo por concepto de remuneración de los planes de pérdidas (CPROG)",
+  "queryDate": "2026-05-20",
+  "granularity": "Mensual",
+  "category": "Cargo por concepto de remuneración de los planes de pérdidas (CPROG)",
+  "lastUpdate": "2026-05-16 12:17:57",
+  "columns": [
+    {
+      "nameColumn": "CodigoVariable",
+      "dataType": "texto",
+      "description": "Código de la variable"
+    },
+    {
+      "nameColumn": "ValorVariable",
+      "dataType": "decimal",
+      "description": "Valor de la variable (escala de 8 cifras)"
+    },
+    {
+      "nameColumn": "MercadoComercializacion",
+      "dataType": "texto",
+      "description": "Mercado de comercialización operativo"
+    },
+    {
+      "nameColumn": "CodigoSICAgente",
+      "dataType": "texto",
+      "description": "Código del agente asignado por el ASIC"
+    },
+    {
+      "nameColumn": "Fecha",
+      "dataType": "fecha",
+      "description": "Fecha de representación de la información"
+    }
+  ],
+  "columnCount": 5,
+  "recordCountForQueryDate": 0
+}

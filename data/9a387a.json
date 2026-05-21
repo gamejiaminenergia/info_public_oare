@@ -1,0 +1,42 @@
+{
+  "datasetId": "9a387a",
+  "datasetName": "Porcentaje estimado de cobertura con contratos de convocatorias del SICEP para el mercado regulado",
+  "queryDate": "2026-05-20",
+  "granularity": "Mensual",
+  "category": "Porcentaje estimado de cobertura con contratos de convocatorias del SICEP para el mercado regulado",
+  "lastUpdate": "2026-05-05 13:21:32",
+  "columns": [
+    {
+      "nameColumn": "PrcjCoberturaSICEP",
+      "dataType": "decimal",
+      "description": "Porcentaje de cobertura de los contratos del SICEP respecto a la demanda estimada por la UPME"
+    },
+    {
+      "nameColumn": "FechaPublicacionCttos",
+      "dataType": "fecha",
+      "description": "Fecha en que se realizó la publicación del dato de contratos"
+    },
+    {
+      "nameColumn": "DemandaUPME",
+      "dataType": "decimal",
+      "description": "Demanda proyectada y publicada por la UPME"
+    },
+    {
+      "nameColumn": "EnergiaContratadaSICEP",
+      "dataType": "decimal",
+      "description": "Energía comprometida en contratos adjudicados en el SICEP"
+    },
+    {
+      "nameColumn": "FechaProyectada",
+      "dataType": "fecha",
+      "description": "Fecha proyectada en que aplica el dato"
+    },
+    {
+      "nameColumn": "CodigoDuracion",
+      "dataType": "texto",
+      "description": "Código de duración de la variable en formato ISO8601"
+    }
+  ],
+  "columnCount": 6,
+  "recordCountForQueryDate": 29
+}

@@ -1,0 +1,37 @@
+{
+  "datasetId": "4d0f92",
+  "datasetName": "Pronóstico oficial de demanda por mercado de comercialización",
+  "queryDate": "2026-05-20",
+  "granularity": "Horaria",
+  "category": "Pronóstico oficial de demanda por mercado de comercialización",
+  "lastUpdate": "2026-05-01 21:19:00",
+  "columns": [
+    {
+      "nameColumn": "FechaPublicacion",
+      "dataType": "fecha",
+      "description": "Fecha de publicación del dato en el SIMEM"
+    },
+    {
+      "nameColumn": "MercadoComercializacionOperativo",
+      "dataType": "texto",
+      "description": "Mercado de comercializacion operativo"
+    },
+    {
+      "nameColumn": "PronDem",
+      "dataType": "decimal",
+      "description": "Valor de pronóstico CND de demanda de energía eléctrica por Área operativa"
+    },
+    {
+      "nameColumn": "FechaHora",
+      "dataType": "fecha hora",
+      "description": "Fecha y hora de representación del dato"
+    },
+    {
+      "nameColumn": "CodigoDuracion",
+      "dataType": "texto",
+      "description": "Código de duración de la variable en formato ISO8601"
+    }
+  ],
+  "columnCount": 5,
+  "recordCountForQueryDate": 0
+}

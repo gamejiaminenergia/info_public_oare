@@ -1,0 +1,27 @@
+{
+  "datasetId": "497f97",
+  "datasetName": "Programa de normalización de redes eléctricas (PRONE)",
+  "queryDate": "2026-05-20",
+  "granularity": "Mensual",
+  "category": "Programa de normalización de redes eléctricas (PRONE)",
+  "lastUpdate": "2026-05-11 10:18:04",
+  "columns": [
+    {
+      "nameColumn": "CodigoVariable",
+      "dataType": "texto",
+      "description": "Código de la variable"
+    },
+    {
+      "nameColumn": "Valor",
+      "dataType": "decimal",
+      "description": "Valor de la variable (escala de 4 cifras)"
+    },
+    {
+      "nameColumn": "Fecha",
+      "dataType": "fecha",
+      "description": "Fecha de representación de la información"
+    }
+  ],
+  "columnCount": 3,
+  "recordCountForQueryDate": 0
+}

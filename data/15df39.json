@@ -1,0 +1,42 @@
+{
+  "datasetId": "15df39",
+  "datasetName": "Proyecciones de energía de los contratos no realizados a través del SICEP con destino al mercado regulado por comercializador",
+  "queryDate": "2026-05-20",
+  "granularity": "Mensual",
+  "category": "Proyecciones de energía de los contratos no realizados a través del SICEP con destino al mercado regulado por comercializador",
+  "lastUpdate": "2026-05-12 08:36:44",
+  "columns": [
+    {
+      "nameColumn": "EnergiaPromedio",
+      "dataType": "decimal",
+      "description": "Promedio de las cantidades de energía en GWh/mes"
+    },
+    {
+      "nameColumn": "FechaPublicacion",
+      "dataType": "fecha",
+      "description": "Fecha de publicación del dato en el SIMEM"
+    },
+    {
+      "nameColumn": "EnergiaMediana",
+      "dataType": "decimal",
+      "description": "Mediana de las cantidades de energía en GWh/mes"
+    },
+    {
+      "nameColumn": "FechaProyectada",
+      "dataType": "fecha",
+      "description": "Fecha proyectada en que aplica el dato"
+    },
+    {
+      "nameColumn": "CodigoAgenteComprador",
+      "dataType": "texto",
+      "description": "Código asignado por el ASIC al agente comprador"
+    },
+    {
+      "nameColumn": "CodigoDuracion",
+      "dataType": "texto",
+      "description": "Código de duración de la variable en formato ISO8601"
+    }
+  ],
+  "columnCount": 6,
+  "recordCountForQueryDate": 2094
+}

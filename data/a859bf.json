@@ -1,0 +1,47 @@
+{
+  "datasetId": "a859bf",
+  "datasetName": "Eventos de Frecuencia",
+  "queryDate": "2026-05-20",
+  "granularity": "Diaria",
+  "category": "Eventos de Frecuencia",
+  "lastUpdate": "2026-05-21 08:25:58",
+  "columns": [
+    {
+      "nameColumn": "DescripcionEvento",
+      "dataType": "texto",
+      "description": "NULL"
+    },
+    {
+      "nameColumn": "IdentificadorSuceso",
+      "dataType": "texto",
+      "description": "Identificador único del evento o suceso"
+    },
+    {
+      "nameColumn": "CodigoSubAreaOperativa",
+      "dataType": "texto",
+      "description": "Código de la subárea asociada al activo"
+    },
+    {
+      "nameColumn": "EnergiaNoAtendida",
+      "dataType": "decimal",
+      "description": "Cantidad de energía desatendida durante el suceso"
+    },
+    {
+      "nameColumn": "FechaHora",
+      "dataType": "fecha hora",
+      "description": "Fecha y hora de representación del dato"
+    },
+    {
+      "nameColumn": "TipoEventoFrecuencia",
+      "dataType": "texto",
+      "description": "Tipo de evento de frecuencia"
+    },
+    {
+      "nameColumn": "ValorFrecuencia",
+      "dataType": "decimal",
+      "description": "Valor mínimo de frecuencia alcanzado"
+    }
+  ],
+  "columnCount": 7,
+  "recordCountForQueryDate": 0
+}

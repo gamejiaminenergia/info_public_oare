@@ -1,0 +1,47 @@
+{
+  "datasetId": "629B6D",
+  "datasetName": "Oportunidad en la entrega de información por parte de los agentes de contratos largo plazo",
+  "queryDate": "2026-05-20",
+  "granularity": "Anual",
+  "category": "Oportunidad en la entrega de información por parte de los agentes de contratos largo plazo",
+  "lastUpdate": "2026-01-06 19:52:21",
+  "columns": [
+    {
+      "nameColumn": "RegistrosExtemporaneosContratos",
+      "dataType": "entero",
+      "description": "Número de contratos registrados fuera de los plazos ante el ASIC"
+    },
+    {
+      "nameColumn": "FechaPublicacion",
+      "dataType": "fecha",
+      "description": "Fecha de publicación del dato en el SIMEM"
+    },
+    {
+      "nameColumn": "ErroresReporteInformacion",
+      "dataType": "entero",
+      "description": "Número de veces en las que se entregó información con errores"
+    },
+    {
+      "nameColumn": "CodigoSICAgente",
+      "dataType": "texto",
+      "description": "Código del agente asignado por el ASIC"
+    },
+    {
+      "nameColumn": "AnioReporte",
+      "dataType": "fecha",
+      "description": "Año del reporte"
+    },
+    {
+      "nameColumn": "NombreAgente",
+      "dataType": "texto",
+      "description": "Nombre de agente registrado"
+    },
+    {
+      "nameColumn": "ActividadAgente",
+      "dataType": "texto",
+      "description": "Actividad del agente"
+    }
+  ],
+  "columnCount": 7,
+  "recordCountForQueryDate": 0
+}

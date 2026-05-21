@@ -1,0 +1,47 @@
+{
+  "datasetId": "90b78a",
+  "datasetName": "Porcentaje Estimado de cobertura con contratos entre agentes",
+  "queryDate": "2026-05-20",
+  "granularity": "Mensual",
+  "category": "Porcentaje Estimado de cobertura con contratos entre agentes",
+  "lastUpdate": "2026-05-05 13:20:12",
+  "columns": [
+    {
+      "nameColumn": "FechaPublicacionCttos",
+      "dataType": "fecha",
+      "description": "Fecha en que se realizó la publicación del dato de contratos"
+    },
+    {
+      "nameColumn": "DemandaUPME",
+      "dataType": "decimal",
+      "description": "Demanda proyectada y publicada por la UPME"
+    },
+    {
+      "nameColumn": "FechaPublicacionUPME",
+      "dataType": "fecha",
+      "description": "Indica la fecha en que la UPME hizo la publicación del dato de la demanda"
+    },
+    {
+      "nameColumn": "PrcjCoberturaEntreAgentes",
+      "dataType": "decimal",
+      "description": "Porcentaje de cobertura de los contratos del SICEP respecto a la demanda estimada por la UPME"
+    },
+    {
+      "nameColumn": "EnergiaContratadaEntreAgentes",
+      "dataType": "decimal",
+      "description": "Energía comprometida en contratos entre agentes del mercado, diferentes a los contratos con destino al mercado regulado"
+    },
+    {
+      "nameColumn": "FechaProyectada",
+      "dataType": "fecha",
+      "description": "Fecha proyectada en que aplica el dato"
+    },
+    {
+      "nameColumn": "CodigoDuracion",
+      "dataType": "texto",
+      "description": "Código de duración de la variable en formato ISO8601"
+    }
+  ],
+  "columnCount": 7,
+  "recordCountForQueryDate": 111
+}

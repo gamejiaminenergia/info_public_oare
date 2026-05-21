@@ -1,0 +1,52 @@
+{
+  "datasetId": "596c1c",
+  "datasetName": "Demanda Energético Mediano Plazo",
+  "queryDate": "2026-05-20",
+  "granularity": "Semanal",
+  "category": "Demanda Energético Mediano Plazo",
+  "lastUpdate": "2026-05-17 19:20:46",
+  "columns": [
+    {
+      "nameColumn": "FechaFin",
+      "dataType": "fecha",
+      "description": "Fecha final de vigencia del dato"
+    },
+    {
+      "nameColumn": "SemanaEstudio",
+      "dataType": "entero",
+      "description": "Semana desde donde se toman las condiciones iniciales para el estudio de planeamiento energético"
+    },
+    {
+      "nameColumn": "Etapa",
+      "dataType": "entero",
+      "description": "Resolución o paso temporal del horizonte de estudio"
+    },
+    {
+      "nameColumn": "FechaPublicacion",
+      "dataType": "fecha",
+      "description": "Fecha de publicación del dato en el SIMEM"
+    },
+    {
+      "nameColumn": "DemandaSIN",
+      "dataType": "flotante",
+      "description": "Demanda de energía diaria promedio por etapa [kWh/dia]"
+    },
+    {
+      "nameColumn": "CodigoAreaOperativa",
+      "dataType": "texto",
+      "description": "Código del área operativa eléctrica"
+    },
+    {
+      "nameColumn": "AnioEstudio",
+      "dataType": "entero",
+      "description": "Año desde donde se toman las condiciones iniciales para el estudio de planeamiento energético"
+    },
+    {
+      "nameColumn": "FechaInicio",
+      "dataType": "fecha",
+      "description": "Fecha de inicio del dato"
+    }
+  ],
+  "columnCount": 8,
+  "recordCountForQueryDate": 2562
+}

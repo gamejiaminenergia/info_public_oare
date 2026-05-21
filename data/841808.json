@@ -1,0 +1,32 @@
+{
+  "datasetId": "841808",
+  "datasetName": "Listado de Áreas Operativas del Sistema de Interconectado Nacional",
+  "queryDate": "2026-05-20",
+  "granularity": "Diaria",
+  "category": "Listado de Áreas Operativas del Sistema de Interconectado Nacional",
+  "lastUpdate": "2026-05-21 07:20:33",
+  "columns": [
+    {
+      "nameColumn": "CodigoAreaOperativa",
+      "dataType": "texto",
+      "description": "Código del área operativa eléctrica"
+    },
+    {
+      "nameColumn": "FechaEjecucion",
+      "dataType": "fecha",
+      "description": "Fecha Extracción del dato"
+    },
+    {
+      "nameColumn": "Fecha",
+      "dataType": "fecha",
+      "description": "Fecha de representación de la información"
+    },
+    {
+      "nameColumn": "NombreAreaOperativa",
+      "dataType": "texto",
+      "description": "Nombre del área operativa ante el CND"
+    }
+  ],
+  "columnCount": 4,
+  "recordCountForQueryDate": 8
+}

@@ -1,0 +1,82 @@
+{
+  "datasetId": "6e0197",
+  "datasetName": "Recomendaciones Eléctricas de Corto Plazo",
+  "queryDate": "2026-05-20",
+  "granularity": "Horaria",
+  "category": "Recomendaciones Eléctricas de Corto Plazo",
+  "lastUpdate": "2026-05-17 17:26:05",
+  "columns": [
+    {
+      "nameColumn": "GrupoMantenimiento",
+      "dataType": "texto",
+      "description": "Grupo de mantenimientos"
+    },
+    {
+      "nameColumn": "ElementoReferido",
+      "dataType": "texto",
+      "description": "Elementos o activos requeridos por seguridad de las personas o equipos"
+    },
+    {
+      "nameColumn": "TipoRecomendacion",
+      "dataType": "texto",
+      "description": "Tipo de recomendación electrica"
+    },
+    {
+      "nameColumn": "Valor",
+      "dataType": "decimal",
+      "description": "Valor de la variable (escala de 4 cifras)"
+    },
+    {
+      "nameColumn": "TipoAfectacion",
+      "dataType": "texto",
+      "description": "Afectación asociada al elemento referido"
+    },
+    {
+      "nameColumn": "NumeroMantenimiento",
+      "dataType": "texto",
+      "description": "Número de mantenimiento"
+    },
+    {
+      "nameColumn": "FechaPublicacion",
+      "dataType": "fecha",
+      "description": "Fecha de publicación del dato en el SIMEM"
+    },
+    {
+      "nameColumn": "TipoCausal",
+      "dataType": "texto",
+      "description": "Clasificación de seguridad de acuerdo con la Resolución CREG 063-2001"
+    },
+    {
+      "nameColumn": "RecomendacionElectrica",
+      "dataType": "texto",
+      "description": "Detalle de la recomendación eléctrica con los elementos que deben controlarse y/o restringirse"
+    },
+    {
+      "nameColumn": "CodigoConsignacion",
+      "dataType": "texto",
+      "description": "Código de la consignación"
+    },
+    {
+      "nameColumn": "Version",
+      "dataType": "texto",
+      "description": "Versión de la liquidación"
+    },
+    {
+      "nameColumn": "FechaHora",
+      "dataType": "fecha hora",
+      "description": "Fecha y hora de representación del dato"
+    },
+    {
+      "nameColumn": "CodigoDuracion",
+      "dataType": "texto",
+      "description": "Código de duración de la variable en formato ISO8601"
+    },
+    {
+      "nameColumn": "ElementoConsignado",
+      "dataType": "texto",
+      "description": "Elemento principal sobre el cual se realiza el mantenimiento"
+    }
+  ],
+  "columnCount": 14,
+  "recordCountForQueryDate": 30551
+}

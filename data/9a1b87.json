@@ -1,0 +1,47 @@
+{
+  "datasetId": "9a1b87",
+  "datasetName": "Insumos para el Precio Marginal de Escasez",
+  "queryDate": "2026-05-20",
+  "granularity": "Diaria",
+  "category": "Insumos para el Precio Marginal de Escasez",
+  "lastUpdate": "2026-05-21 04:32:04",
+  "columns": [
+    {
+      "nameColumn": "CodigoVariable",
+      "dataType": "texto",
+      "description": "Código de la variable"
+    },
+    {
+      "nameColumn": "Valor",
+      "dataType": "decimal",
+      "description": "Valor de la variable (escala de 4 cifras)"
+    },
+    {
+      "nameColumn": "TipoCombustible",
+      "dataType": "texto",
+      "description": "Tipo Combustible"
+    },
+    {
+      "nameColumn": "UnidadMedida",
+      "dataType": "texto",
+      "description": "Unidad de medida en la que se encuentra la variable"
+    },
+    {
+      "nameColumn": "Version",
+      "dataType": "texto",
+      "description": "Versión de la liquidación"
+    },
+    {
+      "nameColumn": "CodigoDuracion",
+      "dataType": "texto",
+      "description": "Código de duración de la variable en formato ISO8601"
+    },
+    {
+      "nameColumn": "Fecha",
+      "dataType": "fecha",
+      "description": "Fecha de representación de la información"
+    }
+  ],
+  "columnCount": 7,
+  "recordCountForQueryDate": 0
+}

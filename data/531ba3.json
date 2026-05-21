@@ -1,0 +1,52 @@
+{
+  "datasetId": "531ba3",
+  "datasetName": "Informe anual de auditoría de costos de combustible para el cálculo del precio marginal de escasez",
+  "queryDate": "2026-05-20",
+  "granularity": "Anual",
+  "category": "Informe anual de auditoría de costos de combustible para el cálculo del precio marginal de escasez",
+  "lastUpdate": "2026-05-20 16:47:31",
+  "columns": [
+    {
+      "nameColumn": "CostoCombustibleReportado",
+      "dataType": "decimal",
+      "description": "Costo Combustible reportado (COP/MBTU)"
+    },
+    {
+      "nameColumn": "DifCostoReportadoRespecCostoReferenciaMME",
+      "dataType": "decimal",
+      "description": "Diferencia porcentual de los costos reportados en relación con el costo de referencia promedio reportado para el mismo combustible basado en información del MME o en el Gestor del Mercado de Gas Natural "
+    },
+    {
+      "nameColumn": "TipoCombustible",
+      "dataType": "texto",
+      "description": "Tipo Combustible"
+    },
+    {
+      "nameColumn": "DifCostoReportadoRespecPromOtrasPlantas",
+      "dataType": "decimal",
+      "description": "Diferencia porcentual de los costos reportados en relación con el costo promedio del resto de plantas auditadas operando con el mismo combustible"
+    },
+    {
+      "nameColumn": "CodigoPlanta",
+      "dataType": "texto",
+      "description": "Código de la planta"
+    },
+    {
+      "nameColumn": "DifCostoReportadoRespecCostoReferenciaUPME",
+      "dataType": "decimal",
+      "description": "Diferencia porcentual de los costos reportados en relación con el costo de referencia promedio reportado para el mismo combustible basado en información de la UPME"
+    },
+    {
+      "nameColumn": "CodigoDuracion",
+      "dataType": "texto",
+      "description": "Código de duración de la variable en formato ISO8601"
+    },
+    {
+      "nameColumn": "Fecha",
+      "dataType": "fecha",
+      "description": "Fecha de representación de la información"
+    }
+  ],
+  "columnCount": 8,
+  "recordCountForQueryDate": 0
+}

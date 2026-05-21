@@ -1,0 +1,82 @@
+{
+  "datasetId": "315976",
+  "datasetName": "Limitación de suministros a usuarios finales según la Res. CREG 116 de 1998",
+  "queryDate": "2026-05-20",
+  "granularity": "Diaria",
+  "category": "Limitación de suministros a usuarios finales según la Res. CREG 116 de 1998",
+  "lastUpdate": "2026-05-21 07:15:54",
+  "columns": [
+    {
+      "nameColumn": "FechaCancelacion",
+      "dataType": "fecha",
+      "description": "Fecha de pago de la responsabilidad por la que se da inicio a la limitación de suministro "
+    },
+    {
+      "nameColumn": "DiasHabiles2",
+      "dataType": "fecha",
+      "description": "Plazo de 2 días hábiles"
+    },
+    {
+      "nameColumn": "DiasHabiles10",
+      "dataType": "fecha",
+      "description": "Plazo de 30 días hábiles"
+    },
+    {
+      "nameColumn": "Periodicidad",
+      "dataType": "entero",
+      "description": "Cantidad de veces que un agente a estado en proceso de limitación de suministro"
+    },
+    {
+      "nameColumn": "Motivo",
+      "dataType": "texto",
+      "description": "Motivo por el cual se da inicio al proceso de limitación de suministro"
+    },
+    {
+      "nameColumn": "CodigoSICAgente",
+      "dataType": "texto",
+      "description": "Código del agente asignado por el ASIC"
+    },
+    {
+      "nameColumn": "FechaInicio",
+      "dataType": "fecha",
+      "description": "Fecha de inicio del dato"
+    },
+    {
+      "nameColumn": "FechaCorte",
+      "dataType": "fecha",
+      "description": "Fecha de sanción por el proceso de limitación de suministro"
+    },
+    {
+      "nameColumn": "CodigoDuracion",
+      "dataType": "texto",
+      "description": "Código de duración de la variable en formato ISO8601"
+    },
+    {
+      "nameColumn": "EsComercializadorIndependiente",
+      "dataType": "texto",
+      "description": "Indica si es comercializador independiente o no para para aplicar o no la limitación de suministro"
+    },
+    {
+      "nameColumn": "Estado",
+      "dataType": "texto",
+      "description": "Estado del proceso de limitación de suministro"
+    },
+    {
+      "nameColumn": "DiasHabiles5",
+      "dataType": "fecha",
+      "description": "Plazo de 5 días hábiles"
+    },
+    {
+      "nameColumn": "Fecha",
+      "dataType": "fecha",
+      "description": "Fecha de representación de la información"
+    },
+    {
+      "nameColumn": "ActividadAgente",
+      "dataType": "texto",
+      "description": "Actividad del agente"
+    }
+  ],
+  "columnCount": 14,
+  "recordCountForQueryDate": 0
+}

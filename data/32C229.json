@@ -1,0 +1,42 @@
+{
+  "datasetId": "32C229",
+  "datasetName": "Fondo de apoyo a zonas no interconectadas (FAZNI)",
+  "queryDate": "2026-05-20",
+  "granularity": "Mensual",
+  "category": "Fondo de apoyo a zonas no interconectadas (FAZNI)",
+  "lastUpdate": "2026-05-11 06:35:52",
+  "columns": [
+    {
+      "nameColumn": "CodigoVariable",
+      "dataType": "texto",
+      "description": "Código de la variable"
+    },
+    {
+      "nameColumn": "Valor",
+      "dataType": "decimal",
+      "description": "Valor de la variable (escala de 4 cifras)"
+    },
+    {
+      "nameColumn": "UnidadMedida",
+      "dataType": "texto",
+      "description": "Unidad de medida en la que se encuentra la variable"
+    },
+    {
+      "nameColumn": "FechaInicio",
+      "dataType": "fecha",
+      "description": "Fecha de inicio del dato"
+    },
+    {
+      "nameColumn": "Version",
+      "dataType": "texto",
+      "description": "Versión de la liquidación"
+    },
+    {
+      "nameColumn": "CodigoDuracion",
+      "dataType": "texto",
+      "description": "Código de duración de la variable en formato ISO8601"
+    }
+  ],
+  "columnCount": 6,
+  "recordCountForQueryDate": 0
+}

@@ -1,0 +1,72 @@
+{
+  "datasetId": "e2f117",
+  "datasetName": "Vertimientos Energético Mediano Plazo",
+  "queryDate": "2026-05-20",
+  "granularity": "Semanal",
+  "category": "Vertimientos Energético Mediano Plazo",
+  "lastUpdate": "2026-05-17 19:21:22",
+  "columns": [
+    {
+      "nameColumn": "FechaFin",
+      "dataType": "fecha",
+      "description": "Fecha final de vigencia del dato"
+    },
+    {
+      "nameColumn": "SemanaEstudio",
+      "dataType": "entero",
+      "description": "Semana desde donde se toman las condiciones iniciales para el estudio de planeamiento energético"
+    },
+    {
+      "nameColumn": "Etapa",
+      "dataType": "entero",
+      "description": "Resolución o paso temporal del horizonte de estudio"
+    },
+    {
+      "nameColumn": "FechaPublicacion",
+      "dataType": "fecha",
+      "description": "Fecha de publicación del dato en el SIMEM"
+    },
+    {
+      "nameColumn": "TipoEnergetico",
+      "dataType": "texto",
+      "description": "Fuente primaria de energía"
+    },
+    {
+      "nameColumn": "NombreCaso",
+      "dataType": "texto",
+      "description": "Nemotécnico utilizado para identificar el caso de estudio"
+    },
+    {
+      "nameColumn": "VertimientosProyectados",
+      "dataType": "flotante",
+      "description": "Vertimientos del Sistema Interconectado Nacional en [kWh/dia]"
+    },
+    {
+      "nameColumn": "CodigoAreaOperativa",
+      "dataType": "texto",
+      "description": "Código del área operativa eléctrica"
+    },
+    {
+      "nameColumn": "AnioEstudio",
+      "dataType": "entero",
+      "description": "Año desde donde se toman las condiciones iniciales para el estudio de planeamiento energético"
+    },
+    {
+      "nameColumn": "Caso",
+      "dataType": "texto",
+      "description": "Identificador del caso de estudio"
+    },
+    {
+      "nameColumn": "TipoGeneracion",
+      "dataType": "texto",
+      "description": "Tipo de clasificación del recurso de generación"
+    },
+    {
+      "nameColumn": "FechaInicio",
+      "dataType": "fecha",
+      "description": "Fecha de inicio del dato"
+    }
+  ],
+  "columnCount": 12,
+  "recordCountForQueryDate": 49035
+}

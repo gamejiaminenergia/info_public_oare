@@ -1,0 +1,47 @@
+{
+  "datasetId": "6d9c07",
+  "datasetName": "Proyecciones de precios de los contratos no realizados a través del SICEP con destino al mercado regulado por comercializador y contrato",
+  "queryDate": "2026-05-20",
+  "granularity": "Mensual",
+  "category": "Proyecciones de precios de los contratos no realizados a través del SICEP con destino al mercado regulado por comercializador y contrato",
+  "lastUpdate": "2026-05-12 08:32:16",
+  "columns": [
+    {
+      "nameColumn": "FechaPublicacion",
+      "dataType": "fecha",
+      "description": "Fecha de publicación del dato en el SIMEM"
+    },
+    {
+      "nameColumn": "Mediana",
+      "dataType": "decimal",
+      "description": "Mediana de los datos"
+    },
+    {
+      "nameColumn": "PPP",
+      "dataType": "decimal",
+      "description": "Precio Promedio Ponderado por la variable indicada en la descripción del conjunto de datos"
+    },
+    {
+      "nameColumn": "FechaProyectada",
+      "dataType": "fecha",
+      "description": "Fecha proyectada en que aplica el dato"
+    },
+    {
+      "nameColumn": "CodigoAgenteComprador",
+      "dataType": "texto",
+      "description": "Código asignado por el ASIC al agente comprador"
+    },
+    {
+      "nameColumn": "CodigoDuracion",
+      "dataType": "texto",
+      "description": "Código de duración de la variable en formato ISO8601"
+    },
+    {
+      "nameColumn": "CodigoSICContrato",
+      "dataType": "entero",
+      "description": "Código del contrato asignado por el ASIC"
+    }
+  ],
+  "columnCount": 7,
+  "recordCountForQueryDate": 476
+}

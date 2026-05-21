@@ -1,0 +1,52 @@
+{
+  "datasetId": "26AFFD",
+  "datasetName": "Precio de cierre de los mecanismos de asignación de OEF",
+  "queryDate": "2026-05-20",
+  "granularity": "Mensual",
+  "category": "Precio de cierre de los mecanismos de asignación de OEF",
+  "lastUpdate": "2026-03-18 15:13:05",
+  "columns": [
+    {
+      "nameColumn": "CodigoVariable",
+      "dataType": "texto",
+      "description": "Código de la variable"
+    },
+    {
+      "nameColumn": "PrecioCierre",
+      "dataType": "decimal",
+      "description": "Precio de cierre de la subasta o mecanismo correspondiente"
+    },
+    {
+      "nameColumn": "DescripcionConvocatoria",
+      "dataType": "texto",
+      "description": "Descripción de la Subasta del Cargo por Confiabilidad"
+    },
+    {
+      "nameColumn": "UnidadMedida",
+      "dataType": "texto",
+      "description": "Unidad de medida en la que se encuentra la variable"
+    },
+    {
+      "nameColumn": "CodigoConvocatoriaSubastaCxC",
+      "dataType": "texto",
+      "description": "Código de la Subasta del Cargo por Confiabilidad"
+    },
+    {
+      "nameColumn": "FechaInicio",
+      "dataType": "fecha",
+      "description": "Fecha de inicio del dato"
+    },
+    {
+      "nameColumn": "CodigoDuracion",
+      "dataType": "texto",
+      "description": "Código de duración de la variable en formato ISO8601"
+    },
+    {
+      "nameColumn": "PeriodoAsignacion",
+      "dataType": "texto",
+      "description": "Fecha de asignación de la subasta"
+    }
+  ],
+  "columnCount": 8,
+  "recordCountForQueryDate": 0
+}

@@ -1,0 +1,27 @@
+{
+  "datasetId": "cc59b1",
+  "datasetName": "Listado de series hidrológicas",
+  "queryDate": "2026-05-20",
+  "granularity": "Diaria",
+  "category": "Listado de series hidrológicas",
+  "lastUpdate": "2026-05-21 07:21:12",
+  "columns": [
+    {
+      "nameColumn": "CodigoSerieHidrologica",
+      "dataType": "texto",
+      "description": "Código único para identificar una serie hidrologica o un río del Sistema Interconectado Nacional"
+    },
+    {
+      "nameColumn": "NombreSerieHidrologica",
+      "dataType": "texto",
+      "description": "Nombre de la serie hidrológica o río del Sistema Interconectado Nacional"
+    },
+    {
+      "nameColumn": "Fecha",
+      "dataType": "fecha",
+      "description": "Fecha de representación de la información"
+    }
+  ],
+  "columnCount": 3,
+  "recordCountForQueryDate": 90
+}

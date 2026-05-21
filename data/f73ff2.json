@@ -1,0 +1,32 @@
+{
+  "datasetId": "f73ff2",
+  "datasetName": "Cantidad de fronteras de UNR por nivel de tensión",
+  "queryDate": "2026-05-20",
+  "granularity": "Mensual",
+  "category": "Cantidad de fronteras de UNR por nivel de tensión",
+  "lastUpdate": "2026-05-20 03:16:58",
+  "columns": [
+    {
+      "nameColumn": "NivelTension",
+      "dataType": "texto",
+      "description": "Nivel de Tensión"
+    },
+    {
+      "nameColumn": "MercadoComercializacion",
+      "dataType": "texto",
+      "description": "Mercado de comercialización operativo"
+    },
+    {
+      "nameColumn": "CantidadFronterasUNR",
+      "dataType": "entero",
+      "description": "Cantidad total de fronteras de Usuarios No Regulados - UNR"
+    },
+    {
+      "nameColumn": "Fecha",
+      "dataType": "fecha",
+      "description": "Fecha de representación de la información"
+    }
+  ],
+  "columnCount": 4,
+  "recordCountForQueryDate": 0
+}

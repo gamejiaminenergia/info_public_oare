@@ -1,0 +1,32 @@
+{
+  "datasetId": "ae3f23",
+  "datasetName": "Precios de escasez del Cargo por Confiabilidad",
+  "queryDate": "2026-05-20",
+  "granularity": "Mensual",
+  "category": "Precios de escasez del Cargo por Confiabilidad",
+  "lastUpdate": "2026-05-06 15:29:02",
+  "columns": [
+    {
+      "nameColumn": "CodigoVariable",
+      "dataType": "texto",
+      "description": "Código de la variable"
+    },
+    {
+      "nameColumn": "Valor",
+      "dataType": "decimal",
+      "description": "Valor de la variable (escala de 4 cifras)"
+    },
+    {
+      "nameColumn": "CodigoDuracion",
+      "dataType": "texto",
+      "description": "Código de duración de la variable en formato ISO8601"
+    },
+    {
+      "nameColumn": "Fecha",
+      "dataType": "fecha",
+      "description": "Fecha de representación de la información"
+    }
+  ],
+  "columnCount": 4,
+  "recordCountForQueryDate": 3
+}

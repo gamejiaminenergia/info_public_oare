@@ -1,0 +1,42 @@
+{
+  "datasetId": "ebc2d1",
+  "datasetName": "Condición del sistema según lo establecido en el Estatuto de Riesgo de Desabastecimiento",
+  "queryDate": "2026-05-20",
+  "granularity": "Diaria",
+  "category": "Condición del sistema según lo establecido en el Estatuto de Riesgo de Desabastecimiento",
+  "lastUpdate": "2026-05-20 19:22:10",
+  "columns": [
+    {
+      "nameColumn": "FechaPublicacion",
+      "dataType": "fecha",
+      "description": "Fecha de publicación del dato en el SIMEM"
+    },
+    {
+      "nameColumn": "ResultadoEvaluacionEstatuto",
+      "dataType": "texto",
+      "description": "Resultado de la evaluación de la metodología del estatuto de desabastecimiento"
+    },
+    {
+      "nameColumn": "FechaPublicacionEstado",
+      "dataType": "fecha",
+      "description": "Fecha de publicación del estado asociado al estatuto de desabastecimiento"
+    },
+    {
+      "nameColumn": "CodigoDuracion",
+      "dataType": "texto",
+      "description": "Código de duración de la variable en formato ISO8601"
+    },
+    {
+      "nameColumn": "FechaCalculo",
+      "dataType": "fecha",
+      "description": "Fecha en la que se realizó el cálculo de la condición del sistema"
+    },
+    {
+      "nameColumn": "Fecha",
+      "dataType": "fecha",
+      "description": "Fecha de representación de la información"
+    }
+  ],
+  "columnCount": 6,
+  "recordCountForQueryDate": 0
+}

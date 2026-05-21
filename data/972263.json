@@ -1,0 +1,37 @@
+{
+  "datasetId": "972263",
+  "datasetName": "Listado de agentes registrados",
+  "queryDate": "2026-05-20",
+  "granularity": "Diaria",
+  "category": "Listado de agentes registrados",
+  "lastUpdate": "2026-05-21 08:19:56",
+  "columns": [
+    {
+      "nameColumn": "CodigoSICAgente",
+      "dataType": "texto",
+      "description": "Código del agente asignado por el ASIC"
+    },
+    {
+      "nameColumn": "NombreAgente",
+      "dataType": "texto",
+      "description": "Nombre de agente registrado"
+    },
+    {
+      "nameColumn": "CodigoDuracion",
+      "dataType": "texto",
+      "description": "Código de duración de la variable en formato ISO8601"
+    },
+    {
+      "nameColumn": "Fecha",
+      "dataType": "fecha",
+      "description": "Fecha de representación de la información"
+    },
+    {
+      "nameColumn": "ActividadAgente",
+      "dataType": "texto",
+      "description": "Actividad del agente"
+    }
+  ],
+  "columnCount": 5,
+  "recordCountForQueryDate": 366
+}

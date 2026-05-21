@@ -1,0 +1,32 @@
+{
+  "datasetId": "AECA28",
+  "datasetName": "Vertimientos hídricos",
+  "queryDate": "2026-05-20",
+  "granularity": "Diaria",
+  "category": "Vertimientos hídricos",
+  "lastUpdate": "2026-05-21 07:20:15",
+  "columns": [
+    {
+      "nameColumn": "VertimientosEnergia",
+      "dataType": "decimal",
+      "description": "Vertimientos reportados expresados en energía"
+    },
+    {
+      "nameColumn": "CodigoDuracion",
+      "dataType": "texto",
+      "description": "Código de duración de la variable en formato ISO8601"
+    },
+    {
+      "nameColumn": "CodigoEmbalse",
+      "dataType": "texto",
+      "description": "Código del embalse"
+    },
+    {
+      "nameColumn": "Fecha",
+      "dataType": "fecha",
+      "description": "Fecha de representación de la información"
+    }
+  ],
+  "columnCount": 4,
+  "recordCountForQueryDate": 25
+}

@@ -1,0 +1,32 @@
+{
+  "datasetId": "DE416B",
+  "datasetName": "Calce u operaciones de las órdenes de demanda en Convocatorias de Participación en Subasta de Cierre",
+  "queryDate": "2026-05-20",
+  "granularity": "Mensual",
+  "category": "Calce u operaciones de las órdenes de demanda en Convocatorias de Participación en Subasta de Cierre",
+  "lastUpdate": "2026-05-12 19:18:47",
+  "columns": [
+    {
+      "nameColumn": "CodigoVariable",
+      "dataType": "texto",
+      "description": "Código de la variable"
+    },
+    {
+      "nameColumn": "ValorPorcentual",
+      "dataType": "decimal",
+      "description": "Porcentaje (%) de cantidad de órdenes en venta negociadas, repecto al total de órdenes en venta con las que culminan las Convocatorías de Participación en Subasta de Cierre para los contratos futuros de energía convocados en el mes M."
+    },
+    {
+      "nameColumn": "FechaInicio",
+      "dataType": "fecha",
+      "description": "Fecha de inicio del dato"
+    },
+    {
+      "nameColumn": "CodigoDuracion",
+      "dataType": "texto",
+      "description": "Código de duración de la variable en formato ISO8601"
+    }
+  ],
+  "columnCount": 4,
+  "recordCountForQueryDate": 0
+}

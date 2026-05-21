@@ -1,0 +1,47 @@
+{
+  "datasetId": "9605b0",
+  "datasetName": "Reservas Hidráulicas en Masa del Informe Diario de Operación",
+  "queryDate": "2026-05-20",
+  "granularity": "Diaria",
+  "category": "Reservas Hidráulicas en Masa del Informe Diario de Operación",
+  "lastUpdate": "2026-05-21 08:23:00",
+  "columns": [
+    {
+      "nameColumn": "FechaPublicacion",
+      "dataType": "fecha",
+      "description": "Fecha de publicación del dato en el SIMEM"
+    },
+    {
+      "nameColumn": "RegionHidrologica",
+      "dataType": "texto",
+      "description": "Zona geográfica en la cual se agrupan elementos con características hidrológicas similares."
+    },
+    {
+      "nameColumn": "VolumenTotalMasa",
+      "dataType": "decimal",
+      "description": "Es el volumen máximo que puede almacenarse en un embalse, bajo condiciones normales de operación.  Equivale a la suma de los siguientes volúmenes:  volumen de embalse muerto, volumen mínimo técnico y volumen útil del embalse"
+    },
+    {
+      "nameColumn": "VolumenUtilDiarioMasa",
+      "dataType": "decimal",
+      "description": "Es el volumen diario almacenado en cada embalse que puede ser utilizado para generar energía."
+    },
+    {
+      "nameColumn": "CodigoDuracion",
+      "dataType": "texto",
+      "description": "Código de duración de la variable en formato ISO8601"
+    },
+    {
+      "nameColumn": "CodigoEmbalse",
+      "dataType": "texto",
+      "description": "Código del embalse"
+    },
+    {
+      "nameColumn": "Fecha",
+      "dataType": "fecha",
+      "description": "Fecha de representación de la información"
+    }
+  ],
+  "columnCount": 7,
+  "recordCountForQueryDate": 24
+}

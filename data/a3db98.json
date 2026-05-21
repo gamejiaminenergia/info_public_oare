@@ -1,0 +1,47 @@
+{
+  "datasetId": "a3db98",
+  "datasetName": "Eventos de Tensión fuera de Rango",
+  "queryDate": "2026-05-20",
+  "granularity": "Diaria",
+  "category": "Eventos de Tensión fuera de Rango",
+  "lastUpdate": "2026-05-21 08:25:52",
+  "columns": [
+    {
+      "nameColumn": "FechaHoraFin",
+      "dataType": "fecha hora",
+      "description": "Fecha final de la indisponibilidad en el activo del STN"
+    },
+    {
+      "nameColumn": "CodigoSubestacionOrigen",
+      "dataType": "texto",
+      "description": "Código de la subestación de origen de la línea de transmisión"
+    },
+    {
+      "nameColumn": "DescripcionEvento",
+      "dataType": "texto",
+      "description": "NULL"
+    },
+    {
+      "nameColumn": "FechaHoraInicio",
+      "dataType": "fecha hora",
+      "description": "Fecha inicial de la indisponibilidad en el activo del STN"
+    },
+    {
+      "nameColumn": "IdentificadorSuceso",
+      "dataType": "texto",
+      "description": "Identificador único del evento o suceso"
+    },
+    {
+      "nameColumn": "CodigoSubAreaOperativa",
+      "dataType": "texto",
+      "description": "Código de la subárea asociada al activo"
+    },
+    {
+      "nameColumn": "Tension",
+      "dataType": "decimal",
+      "description": "Nivel de tensión alcanzado en el suceso"
+    }
+  ],
+  "columnCount": 7,
+  "recordCountForQueryDate": 0
+}

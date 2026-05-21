@@ -1,0 +1,72 @@
+{
+  "datasetId": "8DECCA",
+  "datasetName": "Estadísticas de contratos del mercado secundario",
+  "queryDate": "2026-05-20",
+  "granularity": "Mensual",
+  "category": "Estadísticas de contratos del mercado secundario",
+  "lastUpdate": "2026-05-21 09:08:36",
+  "columns": [
+    {
+      "nameColumn": "PPP_USDMWh",
+      "dataType": "decimal",
+      "description": "Precio Promedio Ponderado por la variable indicada en la descripción del conjunto de datos en USD/MWh"
+    },
+    {
+      "nameColumn": "NumeroDeContratos",
+      "dataType": "entero",
+      "description": "Número total de contratos"
+    },
+    {
+      "nameColumn": "PPS_COPkWh",
+      "dataType": "decimal",
+      "description": "Precio Promedio Simple en COP/kWh"
+    },
+    {
+      "nameColumn": "FechaPublicacion",
+      "dataType": "fecha",
+      "description": "Fecha de publicación del dato en el SIMEM"
+    },
+    {
+      "nameColumn": "VCMSTotales",
+      "dataType": "decimal",
+      "description": "Ventas en Contratos del Mercado Secundario totales (ENFICC + EDA)"
+    },
+    {
+      "nameColumn": "PPS_USDMWh",
+      "dataType": "decimal",
+      "description": "Precio Promedio Simple en USD/MWh"
+    },
+    {
+      "nameColumn": "ENFICC",
+      "dataType": "decimal",
+      "description": "Energía Firme del Cargo por Confiabilidad"
+    },
+    {
+      "nameColumn": "EDA",
+      "dataType": "decimal",
+      "description": "Energía Disponible Adicional"
+    },
+    {
+      "nameColumn": "RespaldoConPlantasPropias",
+      "dataType": "texto",
+      "description": "Indica \"Si\" para los contratos donde la planta que compra y la planta que vende pertenecen al mismo agente, de lo contrario es \"No\""
+    },
+    {
+      "nameColumn": "PPP_COPkWh",
+      "dataType": "decimal",
+      "description": "Precio Promedio Ponderado por la variable indicada en la descripción del conjunto de datos en COP/kWh"
+    },
+    {
+      "nameColumn": "CodigoDuracion",
+      "dataType": "texto",
+      "description": "Código de duración de la variable en formato ISO8601"
+    },
+    {
+      "nameColumn": "Fecha",
+      "dataType": "fecha",
+      "description": "Fecha de representación de la información"
+    }
+  ],
+  "columnCount": 12,
+  "recordCountForQueryDate": 2
+}

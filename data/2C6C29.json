@@ -1,0 +1,37 @@
+{
+  "datasetId": "2C6C29",
+  "datasetName": "Acumulado anual de los calce u operaciones de las órdenes de demanda en Convocatorias",
+  "queryDate": "2026-05-20",
+  "granularity": "Mensual",
+  "category": "Acumulado anual de los calce u operaciones de las órdenes de demanda en Convocatorias",
+  "lastUpdate": "2026-05-12 19:15:31",
+  "columns": [
+    {
+      "nameColumn": "FechaFin",
+      "dataType": "fecha",
+      "description": "Fecha final de vigencia del dato"
+    },
+    {
+      "nameColumn": "CodigoVariable",
+      "dataType": "texto",
+      "description": "Código de la variable"
+    },
+    {
+      "nameColumn": "FechaPublicacion",
+      "dataType": "fecha",
+      "description": "Fecha de publicación del dato en el SIMEM"
+    },
+    {
+      "nameColumn": "ValorPorcentual",
+      "dataType": "decimal",
+      "description": "Porcentaje (%) de cantidad de órdenes en venta negociadas, repecto al total de órdenes en venta con las que culminan las Convocatorías de Participación en Subasta de Cierre para los contratos futuros de energía convocados en el mes M."
+    },
+    {
+      "nameColumn": "FechaInicio",
+      "dataType": "fecha",
+      "description": "Fecha de inicio del dato"
+    }
+  ],
+  "columnCount": 5,
+  "recordCountForQueryDate": 0
+}

@@ -1,0 +1,57 @@
+{
+  "datasetId": "77395a",
+  "datasetName": "Informe trimestral de auditoría de costos de combustible reportados para la operación",
+  "queryDate": "2026-05-20",
+  "granularity": "Mensual",
+  "category": "Informe trimestral de auditoría de costos de combustible reportados para la operación",
+  "lastUpdate": "2026-05-14 09:57:15",
+  "columns": [
+    {
+      "nameColumn": "TipoCombustible",
+      "dataType": "texto",
+      "description": "Tipo Combustible"
+    },
+    {
+      "nameColumn": "CodigoPlanta",
+      "dataType": "texto",
+      "description": "Código de la planta"
+    },
+    {
+      "nameColumn": "DesviacionCSC",
+      "dataType": "decimal",
+      "description": "Porcentaje de Desviación del Costo de Suministro de Combustible"
+    },
+    {
+      "nameColumn": "NumeroContrato",
+      "dataType": "entero",
+      "description": "Numero de contrato"
+    },
+    {
+      "nameColumn": "PorcentajeDesviacionOEF",
+      "dataType": "decimal",
+      "description": "Porcentaje de Desviación %OEF"
+    },
+    {
+      "nameColumn": "CodigoDuracion",
+      "dataType": "texto",
+      "description": "Código de duración de la variable en formato ISO8601"
+    },
+    {
+      "nameColumn": "IndicadorCumplimientoHolgura",
+      "dataType": "decimal",
+      "description": "Indicador de planta y/o unidades de generación por encima de la holgura (1 por encima, 0 por debajo)"
+    },
+    {
+      "nameColumn": "Fecha",
+      "dataType": "fecha",
+      "description": "Fecha de representación de la información"
+    },
+    {
+      "nameColumn": "DesviacionCTC",
+      "dataType": "decimal",
+      "description": "Porcentaje de Desviación del Costo de Transporte de Combustible"
+    }
+  ],
+  "columnCount": 9,
+  "recordCountForQueryDate": 0
+}

@@ -1,0 +1,42 @@
+{
+  "datasetId": "9e9ee7",
+  "datasetName": "Pronóstico de demanda de energía y demanda atendida por mercado de comercialización",
+  "queryDate": "2026-05-20",
+  "granularity": "Horaria",
+  "category": "Pronóstico de demanda de energía y demanda atendida por mercado de comercialización",
+  "lastUpdate": "2026-05-06 23:16:43",
+  "columns": [
+    {
+      "nameColumn": "DemandaAtendida",
+      "dataType": "decimal",
+      "description": "Demanda de energía eléctrica atendida"
+    },
+    {
+      "nameColumn": "MercadoComercializacionOperativo",
+      "dataType": "texto",
+      "description": "Mercado de comercializacion operativo"
+    },
+    {
+      "nameColumn": "Periodo",
+      "dataType": "entero",
+      "description": "Periodo horario de operación"
+    },
+    {
+      "nameColumn": "PronDem",
+      "dataType": "decimal",
+      "description": "Valor de pronóstico CND de demanda de energía eléctrica por Área operativa"
+    },
+    {
+      "nameColumn": "CodigoDuracion",
+      "dataType": "texto",
+      "description": "Código de duración de la variable en formato ISO8601"
+    },
+    {
+      "nameColumn": "Fecha",
+      "dataType": "fecha",
+      "description": "Fecha de representación de la información"
+    }
+  ],
+  "columnCount": 6,
+  "recordCountForQueryDate": 0
+}

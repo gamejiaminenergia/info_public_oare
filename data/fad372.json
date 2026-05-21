@@ -1,0 +1,32 @@
+{
+  "datasetId": "fad372",
+  "datasetName": "Cantidad de fronteras de UNR por nivel de consumo",
+  "queryDate": "2026-05-20",
+  "granularity": "Mensual",
+  "category": "Cantidad de fronteras de UNR por nivel de consumo",
+  "lastUpdate": "2026-05-20 03:20:56",
+  "columns": [
+    {
+      "nameColumn": "NivelConsumo",
+      "dataType": "texto",
+      "description": "Nivel de consumo"
+    },
+    {
+      "nameColumn": "CantidadFronterasUNR",
+      "dataType": "entero",
+      "description": "Cantidad total de fronteras de Usuarios No Regulados - UNR"
+    },
+    {
+      "nameColumn": "CodigoDuracion",
+      "dataType": "texto",
+      "description": "Código de duración de la variable en formato ISO8601"
+    },
+    {
+      "nameColumn": "Fecha",
+      "dataType": "fecha",
+      "description": "Fecha de representación de la información"
+    }
+  ],
+  "columnCount": 4,
+  "recordCountForQueryDate": 0
+}

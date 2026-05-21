@@ -1,0 +1,37 @@
+{
+  "datasetId": "1be05d",
+  "datasetName": "Precios y Energía de los contratos no realizados a través del SICEP que atienden el mercado de usuarios regulados",
+  "queryDate": "2026-05-20",
+  "granularity": "Diaria",
+  "category": "Precios y Energía de los contratos no realizados a través del SICEP que atienden el mercado de usuarios regulados",
+  "lastUpdate": "2026-05-11 07:30:22",
+  "columns": [
+    {
+      "nameColumn": "PPP",
+      "dataType": "decimal",
+      "description": "Precio Promedio Ponderado por la variable indicada en la descripción del conjunto de datos"
+    },
+    {
+      "nameColumn": "Version",
+      "dataType": "texto",
+      "description": "Versión de la liquidación"
+    },
+    {
+      "nameColumn": "CodigoDuracion",
+      "dataType": "texto",
+      "description": "Código de duración de la variable en formato ISO8601"
+    },
+    {
+      "nameColumn": "Fecha",
+      "dataType": "fecha",
+      "description": "Fecha de representación de la información"
+    },
+    {
+      "nameColumn": "CantContTotal",
+      "dataType": "decimal",
+      "description": "Cantidad total de energía contratada"
+    }
+  ],
+  "columnCount": 5,
+  "recordCountForQueryDate": 0
+}

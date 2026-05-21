@@ -1,0 +1,72 @@
+{
+  "datasetId": "1c91c4",
+  "datasetName": "Fecha de retiro de unidades de generación",
+  "queryDate": "2026-05-20",
+  "granularity": "Diaria",
+  "category": "Fecha de retiro de unidades de generación",
+  "lastUpdate": "2026-05-20 23:15:59",
+  "columns": [
+    {
+      "nameColumn": "FechaFin",
+      "dataType": "fecha",
+      "description": "Fecha final de vigencia del dato"
+    },
+    {
+      "nameColumn": "FechaPublicacion",
+      "dataType": "fecha",
+      "description": "Fecha de publicación del dato en el SIMEM"
+    },
+    {
+      "nameColumn": "FechaRetiro",
+      "dataType": "fecha",
+      "description": "Fecha de retiro del mercado"
+    },
+    {
+      "nameColumn": "FechaPresentacion",
+      "dataType": "fecha",
+      "description": "fecha de presentación de la garantia"
+    },
+    {
+      "nameColumn": "FechaAprobacion",
+      "dataType": "fecha",
+      "description": "Fecha de aprobacion de la garantia"
+    },
+    {
+      "nameColumn": "CodigoUnidadGeneracion",
+      "dataType": "texto",
+      "description": "Codigo de la unidad de generacion"
+    },
+    {
+      "nameColumn": "FechaInicio",
+      "dataType": "fecha",
+      "description": "Fecha de inicio del dato"
+    },
+    {
+      "nameColumn": "TipoGarantia",
+      "dataType": "texto",
+      "description": "Tipo de garantia del mercado"
+    },
+    {
+      "nameColumn": "CodigoDuracion",
+      "dataType": "texto",
+      "description": "Código de duración de la variable en formato ISO8601"
+    },
+    {
+      "nameColumn": "EstadoGarantia",
+      "dataType": "texto",
+      "description": "Estado de la garantía"
+    },
+    {
+      "nameColumn": "Fecha",
+      "dataType": "fecha",
+      "description": "Fecha de representación de la información"
+    },
+    {
+      "nameColumn": "EsTemporal",
+      "dataType": "entero",
+      "description": "Indicador que determina si el retiro es temporal"
+    }
+  ],
+  "columnCount": 12,
+  "recordCountForQueryDate": 0
+}

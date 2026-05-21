@@ -1,0 +1,32 @@
+{
+  "datasetId": "7a30a3",
+  "datasetName": "Versiones de factura para la liquidación diaria",
+  "queryDate": "2026-05-20",
+  "granularity": "Diaria",
+  "category": "Versiones de factura para la liquidación diaria",
+  "lastUpdate": "2026-05-21 09:10:17",
+  "columns": [
+    {
+      "nameColumn": "FechaFin",
+      "dataType": "fecha",
+      "description": "Fecha final de vigencia del dato"
+    },
+    {
+      "nameColumn": "FechaPublicacion",
+      "dataType": "fecha",
+      "description": "Fecha de publicación del dato en el SIMEM"
+    },
+    {
+      "nameColumn": "FechaInicio",
+      "dataType": "fecha",
+      "description": "Fecha de inicio del dato"
+    },
+    {
+      "nameColumn": "Version",
+      "dataType": "texto",
+      "description": "Versión de la liquidación"
+    }
+  ],
+  "columnCount": 4,
+  "recordCountForQueryDate": 2
+}
